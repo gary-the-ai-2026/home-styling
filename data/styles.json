@@ -1,0 +1,52 @@
+{
+  "recommendedId": "calm-scandi",
+  "styles": [
+    {
+      "id": "calm-scandi",
+      "name": "Calm Scandi",
+      "reason": "Calm Scandi with warm neutrals, because of the pale walls, grey sofa and warm oak tables.",
+      "harmony": "analogous",
+      "undertone": "warm-bridge",
+      "hueShift": 14,
+      "accentName": "Oat",
+      "textures": ["cotton", "linen", "jute", "boucle", "canvas"]
+    },
+    {
+      "id": "coastal-linen",
+      "name": "Coastal linen",
+      "reason": "Coastal linen, smoke blue kept grey, because the daylight is cool and the oak still needs warmth.",
+      "harmony": "analogous",
+      "undertone": "cool-greyed",
+      "hueShift": 188,
+      "accentName": "Smoke blue",
+      "textures": ["linen", "cotton", "jute", "knit"]
+    },
+    {
+      "id": "olive-bloom",
+      "name": "Olive and bloom",
+      "reason": "Olive and bloom, sage textiles and a little flower art, because the grey sofa can hold green beside the oak.",
+      "harmony": "analogous",
+      "undertone": "warm-bridge",
+      "hueShift": 78,
+      "accentName": "Sage",
+      "textures": ["velvet", "linen", "jute", "knit"]
+    },
+    {
+      "id": "warm-earthy-modern",
+      "name": "Warm earthy modern",
+      "reason": "Warm earthy modern, because the grey sofa, walnut table and evening light can hold tobacco, rust and olive.",
+      "harmony": "analogous",
+      "undertone": "warm-bridge",
+      "hueShift": 18,
+      "accentName": "Rust",
+      "textures": ["velvet", "linen", "wool", "boucle"],
+      "palette": [
+        { "name": "Oat", "hex": "#E8DFD0" },
+        { "name": "Tobacco", "hex": "#8B5A2B" },
+        { "name": "Rust", "hex": "#A0522D" },
+        { "name": "Olive", "hex": "#6B6B3A" },
+        { "name": "Chocolate", "hex": "#4B3222" }
+      ]
+    }
+  ]
+}

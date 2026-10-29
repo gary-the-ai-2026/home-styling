@@ -1,0 +1,433 @@
+{
+  "id": "stock-minh-pham-lounge",
+  "title": "Sample lounge",
+  "swipe": "price",
+  "tierTotal": "cheapest",
+  "styleIds": ["calm-scandi", "coastal-linen", "olive-bloom"],
+  "recommendedStyleId": "calm-scandi",
+  "image": "assets/room/base.jpg",
+  "width": 1400,
+  "height": 2100,
+  "swapNote": "Replace assets/room/base.jpg with Josh's photo, keep this filename or update image, then redraw regions below and rerun scripts/build_overlays.py. Regions are pixel polygons on the base image. Every overlay is clipped to its region so pixels outside it stay identical to the base.",
+  "credit": {
+    "photographer": "Minh Pham",
+    "photographerUrl": "https://unsplash.com/@minhphamdesign",
+    "sourceUrl": "https://unsplash.com/photos/OtXADkUh3-I",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license"
+  },
+  "fixed": [
+    {
+      "id": "walls",
+      "label": "Walls",
+      "hex": "#BBC2BA",
+      "sample": [
+        700,
+        300
+      ],
+      "note": "Cool light grey"
+    },
+    {
+      "id": "sofa",
+      "label": "Sofa",
+      "hex": "#BCBCBC",
+      "sample": [
+        650,
+        1180
+      ],
+      "note": "Neutral grey"
+    },
+    {
+      "id": "timber",
+      "label": "Timber",
+      "hex": "#C49577",
+      "sample": [
+        400,
+        1600
+      ],
+      "note": "Warm oak coffee table"
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "hex": "#EDF2EE",
+      "sample": [
+        40,
+        500
+      ],
+      "note": "Cool daylight from the left"
+    }
+  ],
+  "regions": {
+    "wall-art": {
+      "label": "Wall art",
+      "quad": [
+        [
+          848,
+          494
+        ],
+        [
+          1096,
+          488
+        ],
+        [
+          1100,
+          808
+        ],
+        [
+          844,
+          814
+        ]
+      ],
+      "hit": [
+        [
+          825,
+          447
+        ],
+        [
+          1121,
+          447
+        ],
+        [
+          1121,
+          833
+        ],
+        [
+          825,
+          833
+        ]
+      ]
+    },
+    "cushions": {
+      "label": "Cushions",
+      "polygons": [
+        [
+          [
+            240,
+            1105
+          ],
+          [
+            400,
+            1088
+          ],
+          [
+            485,
+            1120
+          ],
+          [
+            470,
+            1200
+          ],
+          [
+            390,
+            1248
+          ],
+          [
+            245,
+            1245
+          ],
+          [
+            215,
+            1165
+          ]
+        ],
+        [
+          [
+            935,
+            1105
+          ],
+          [
+            1115,
+            1088
+          ],
+          [
+            1235,
+            1120
+          ],
+          [
+            1240,
+            1215
+          ],
+          [
+            1090,
+            1245
+          ],
+          [
+            925,
+            1225
+          ]
+        ]
+      ]
+    },
+    "throw": {
+      "label": "Throw",
+      "polygons": [
+        [
+          [
+            740,
+            1310
+          ],
+          [
+            1210,
+            1288
+          ],
+          [
+            1270,
+            1365
+          ],
+          [
+            1230,
+            1470
+          ],
+          [
+            980,
+            1500
+          ],
+          [
+            740,
+            1465
+          ]
+        ]
+      ]
+    },
+    "rug": {
+      "label": "Rug",
+      "polygons": [
+        [
+          [
+            0,
+            1640
+          ],
+          [
+            20,
+            1488
+          ],
+          [
+            260,
+            1465
+          ],
+          [
+            780,
+            1458
+          ],
+          [
+            1180,
+            1480
+          ],
+          [
+            1325,
+            1560
+          ],
+          [
+            1325,
+            2092
+          ],
+          [
+            0,
+            2092
+          ]
+        ]
+      ],
+      "holes": [
+        [
+          [
+            155,
+            1345
+          ],
+          [
+            205,
+            1358
+          ],
+          [
+            247,
+            1396
+          ],
+          [
+            275,
+            1453
+          ],
+          [
+            285,
+            1520
+          ],
+          [
+            275,
+            1587
+          ],
+          [
+            247,
+            1644
+          ],
+          [
+            205,
+            1682
+          ],
+          [
+            155,
+            1695
+          ],
+          [
+            105,
+            1682
+          ],
+          [
+            63,
+            1644
+          ],
+          [
+            35,
+            1587
+          ],
+          [
+            25,
+            1520
+          ],
+          [
+            35,
+            1453
+          ],
+          [
+            63,
+            1396
+          ],
+          [
+            105,
+            1358
+          ]
+        ],
+        [
+          [
+            530,
+            1400
+          ],
+          [
+            624,
+            1413
+          ],
+          [
+            703,
+            1448
+          ],
+          [
+            756,
+            1502
+          ],
+          [
+            775,
+            1565
+          ],
+          [
+            756,
+            1628
+          ],
+          [
+            703,
+            1682
+          ],
+          [
+            624,
+            1717
+          ],
+          [
+            530,
+            1730
+          ],
+          [
+            436,
+            1717
+          ],
+          [
+            357,
+            1682
+          ],
+          [
+            304,
+            1628
+          ],
+          [
+            285,
+            1565
+          ],
+          [
+            304,
+            1502
+          ],
+          [
+            357,
+            1448
+          ],
+          [
+            436,
+            1413
+          ]
+        ],
+        [
+          [
+            1095,
+            1590
+          ],
+          [
+            1166,
+            1601
+          ],
+          [
+            1226,
+            1632
+          ],
+          [
+            1266,
+            1680
+          ],
+          [
+            1280,
+            1735
+          ],
+          [
+            1266,
+            1790
+          ],
+          [
+            1226,
+            1838
+          ],
+          [
+            1166,
+            1869
+          ],
+          [
+            1095,
+            1880
+          ],
+          [
+            1024,
+            1869
+          ],
+          [
+            964,
+            1838
+          ],
+          [
+            924,
+            1790
+          ],
+          [
+            910,
+            1735
+          ],
+          [
+            924,
+            1680
+          ],
+          [
+            964,
+            1632
+          ],
+          [
+            1024,
+            1601
+          ]
+        ]
+      ]
+    }
+  }
+}

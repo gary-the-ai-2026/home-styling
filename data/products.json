@@ -1,0 +1,1896 @@
+{
+  "checkedOn": "2026-10-29",
+  "currency": "AUD",
+  "notes": "Prices are what the product page showed on the checked date. 'From' prices are the structured-data offer, which matches the low end of a size range, not a confirmed price for every size. Totals that include a from-price are labelled From.",
+  "products": [
+    {
+      "id": "kmart-check-cushion",
+      "name": "50cm Woven Check Cotton Cushion Cover - Beige",
+      "store": "Kmart",
+      "storeId": "kmart",
+      "category": "cushions",
+      "priceAud": 7,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50cm insert is sold separately. The earlier check cover SKU 43475735 no longer appears in Kmart search. This is the current beige check cover at the same $7.",
+      "url": "https://www.kmart.com.au/product/50cm-woven-check-cotton-cushion-cover-beige-73633518/",
+      "imageUrl": "https://assets.kmart.com.au/transform/36c5f2d2-a46b-4422-85f1-5210978729b9/73633518-1?io=transform:extend,width:1100,height:1375&quality=90",
+      "imageFile": "assets/products/kmart-check-cushion.jpg",
+      "texture": "cotton",
+      "colourName": "Beige check",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Kmart catalogue search on 29 Oct 2026 returned this name, $7, and this assets.kmart.com.au image. The image URL returned HTTP 200 and the file is a beige check cushion. Direct HTTP to kmart.com.au returned 403. SKU 43475735 returned no search results."
+    },
+    {
+      "id": "bbnt-sorano-natural",
+      "name": "Sorano Linen Blend Cushion - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included. Morgan & Finch.",
+      "url": "https://www.bedbathntable.com.au/sorano-natural-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Natural_SI.jpg",
+      "imageFile": "assets/products/bbnt-sorano-natural.jpg",
+      "texture": "linen",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-everett-natural",
+      "name": "Everett Colour Block Linen Cushion - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "Insert included.",
+      "url": "https://www.bedbathntable.com.au/everett-natural-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Everett_Natural_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-everett-natural.jpg",
+      "texture": "linen",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-linnea-ivory",
+      "name": "Linnea Cushion - Ivory",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 39.95,
+      "priceIsFrom": false,
+      "priceNote": "Ivory ground with a coral and blue branch embroidery, shown on the Linnea bed. Offer price on the page is $39.95. The structured data also includes a unit price of $29.96.",
+      "url": "https://www.bedbathntable.com.au/linnea-cushion-ivory",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Linnea_Cushion_2.jpg",
+      "imageFile": "assets/products/bbnt-linnea-ivory.jpg",
+      "texture": "cotton",
+      "colourName": "Ivory with floral embroidery",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-sorano-smoke",
+      "name": "Sorano Linen Blend Cushion - Smoke Blue",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/sorano-smoke-blue-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Smoke_Blue_SI.jpg",
+      "imageFile": "assets/products/bbnt-sorano-smoke.jpg",
+      "texture": "linen",
+      "colourName": "Smoke blue",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-flinders-smoke",
+      "name": "Flinders Linen Blend Cushion - Smoke Blue",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/flinders-smoke-blue-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Flinders_SmokeBlue_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-flinders-smoke.jpg",
+      "texture": "linen",
+      "colourName": "Smoke blue",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-margot-sage",
+      "name": "Margot Velvet Cushion - Sage",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "Velvet. Insert included.",
+      "url": "https://www.bedbathntable.com.au/homewares/cushions/margot-sage-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushions-Margot_Velvet-Sage_SI.jpg",
+      "imageFile": "assets/products/bbnt-margot-sage.jpg",
+      "texture": "velvet",
+      "colourName": "Sage",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-sorano-olive",
+      "name": "Sorano Linen Blend Cushion - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/sorano-olive-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Olive_SI.jpg",
+      "imageFile": "assets/products/bbnt-sorano-olive.jpg",
+      "texture": "linen",
+      "colourName": "Olive",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-flinders-olive",
+      "name": "Flinders Linen Blend Cushion - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/flinders-olive-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Flinders_Olive_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-flinders-olive.jpg",
+      "texture": "linen",
+      "colourName": "Olive",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "tw-organica",
+      "name": "Linen Organica Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 139,
+      "priceIsFrom": true,
+      "priceNote": "From $139. The page also shows a range of $139\u2013$219 across 150 x 220cm and 190 x 280cm. The $139 figure is the structured-data offer, matching the low end.",
+      "url": "https://www.templeandwebster.com.au/Linen-Organica-Jute-Rug-PHRE2378.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/27675/18651694/4/Linen%2BOrganica%2BJute%2BRug.jpg",
+      "imageFile": "assets/products/tw-organica.jpg",
+      "texture": "jute",
+      "colourName": "Beige",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $139, in stock). Direct HTTP to templeandwebster.com.au from this environment returned 403. Image host img.zcdn.com.au returned 200."
+    },
+    {
+      "id": "adairs-campus",
+      "name": "Campus Natural Handwoven Jute Indoor Runner",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "rug",
+      "priceAud": 169.99,
+      "priceIsFrom": false,
+      "priceNote": "Runner, 80cm wide including fringe x 180cm. Page shows $169.99, $118.99 and $113.04 beside an RRP / Linen Lovers label. Totals use $169.99, the first figure. This is a runner, so the room preview maps its weave into the rug area rather than showing a runner shape.",
+      "url": "https://www.adairs.com.au/homewares/floor-rugs-mats/adairs/campus-natural-handwoven-jute-indoor-runner/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/floor-rugs--mats/201698_02.jpg",
+      "imageFile": "assets/products/adairs-campus.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page text and image URL retrieved 29 Oct 2026. Direct HTTP to adairs.com.au from this environment returned 403. The image was saved via a public image proxy because the Adairs host blocked this environment."
+    },
+    {
+      "id": "tw-jairus",
+      "name": "Bleached Ivory Jairus Hand-Knotted Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 699,
+      "priceIsFrom": true,
+      "priceNote": "From $699. The page shows a size range and a higher was-price. The $699 figure is the structured-data offer, matching the low end (4 payments of $174.75).",
+      "url": "https://www.templeandwebster.com.au/Bleached-Ivory-Jairus-Hand-Knotted-Jute-Rug-RUGL1185.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39103/20488105/4/Bleached%2BIvory%2BJairus%2BHand-Knotted%2BJute%2BRug.jpg",
+      "imageFile": "assets/products/tw-jairus.jpg",
+      "texture": "jute",
+      "colourName": "Bleached ivory",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $699). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-falcon",
+      "name": "Beige Falcon Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 127,
+      "priceIsFrom": true,
+      "priceNote": "From $127. The page shows $127\u2013$554 across sizes from 150 x 80cm to 280 x 190cm. The $127 figure is the structured-data offer.",
+      "url": "https://www.templeandwebster.com.au/Beige-Falcon-Jute-Rug-RGCL1124.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39209/20177818/4/Beige%2BFalcon%2BJute%2BRug.jpg",
+      "imageFile": "assets/products/tw-falcon.jpg",
+      "texture": "jute",
+      "colourName": "Beige with a blue fleck",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $127). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-columbia",
+      "name": "Natural Columbia Hand-Woven Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 139,
+      "priceIsFrom": true,
+      "priceNote": "From $139. The page shows $139\u2013$387 across 160 x 110cm, 230 x 160cm and 280 x 190cm. The $139 figure is the structured-data offer.",
+      "url": "https://www.templeandwebster.com.au/Natural-Columbia-Hand-Woven-Jute-Rug-VWRU2119.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/38584/20208497/4/Natural-Columbia-Hand-Woven-Jute-Rug.jpg",
+      "imageFile": "assets/products/tw-columbia.jpg",
+      "texture": "jute",
+      "colourName": "Natural with a cream lattice",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $139). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-mikey",
+      "name": "Beige Mikey Jute Round Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 199,
+      "priceIsFrom": true,
+      "priceNote": "From $199. Round, sizes from 120cm to 240cm, page range $199\u2013$577. The $199 figure is the structured-data offer. The room preview maps the weave into the rug area.",
+      "url": "https://www.templeandwebster.com.au/Beige-Mikey-Jute-Round-Rug-AUIN1042.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39238/19721788/4/Beige%2BMikey%2BJute%2BRound%2BRug.jpg",
+      "imageFile": "assets/products/tw-mikey.jpg",
+      "texture": "jute",
+      "colourName": "Beige",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $199). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-alba",
+      "name": "Alba Jute Round Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 99.95,
+      "priceIsFrom": true,
+      "priceNote": "From $99.95 in Natural. Round, 120\u2013240cm. Page range $99.95\u2013$249. The room preview maps the weave into the rug area.",
+      "url": "https://www.templeandwebster.com.au/Alba-Jute-Round-Rug-TMPL3192.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/38080/21012398/4/Natural%2BAlba%2BHand-Woven%2BJute%2BRound%2BRug.jpg",
+      "imageFile": "assets/products/tw-alba.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $99.95). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "kmart-indi-rug",
+      "name": "Indi Jute Rug - Brown, Large - 235cm x 160cm",
+      "store": "Kmart",
+      "storeId": "kmart",
+      "category": "rug",
+      "priceAud": 85,
+      "priceIsFrom": false,
+      "priceNote": "235 x 160cm. Rectangular jute. Underlay sold separately.",
+      "url": "https://www.kmart.com.au/product/indi-jute-rug-brown-large-235cm-x-160cm-43733415/",
+      "imageUrl": "https://assets.kmart.com.au/transform/7d1f7fe5-04d6-43a6-81ba-cc667bacb621/43733415-1?io=transform:extend,width:1100,height:1375&quality=90",
+      "imageFile": "assets/products/kmart-indi-rug.jpg",
+      "texture": "jute",
+      "colourName": "Brown",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Confirmed in Kmart catalogue search on 29 Oct 2026: name, $85, and this assets.kmart.com.au image. The image URL returned HTTP 200 and the file is a brown jute rug. Direct HTTP to the product page returned 403.",
+      "placementCrop": [
+        0.12,
+        0.52,
+        0.55,
+        0.82
+      ]
+    },
+    {
+      "id": "kmart-flecked-sage",
+      "name": "Flecked Rug - Sage, Round - 180cm",
+      "store": "Kmart",
+      "storeId": "kmart",
+      "category": "rug",
+      "priceAud": 69,
+      "priceIsFrom": false,
+      "priceNote": "180cm diameter, sage. Polyester pile. Excluded from free delivery. The room preview maps the weave into the rug area.",
+      "url": "https://www.kmart.com.au/product/flecked-rug-sage-round-180cm-43670062/",
+      "imageUrl": "https://assets.kmart.com.au/transform/593088c2-316a-477b-a86b-28055d126d38/43670062-1?io=transform:extend,width:1100,height:1375&quality=90",
+      "imageFile": "assets/products/kmart-flecked-sage.jpg",
+      "texture": "weave",
+      "colourName": "Sage",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Kmart catalogue search on 29 Oct 2026 returned this name, $69, and this assets.kmart.com.au image. The image URL returned HTTP 200 and the file is a pale sage round rug. Direct HTTP to kmart.com.au returned 403.",
+      "placementCrop": [
+        0.32,
+        0.58,
+        0.72,
+        0.82
+      ]
+    },
+    {
+      "id": "bbnt-millen-natural",
+      "name": "Millen Chunky Knit Throw - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm. Morgan & Finch.",
+      "url": "https://www.bedbathntable.com.au/millen-natural-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Millen-Chunky-Knit-Throw_Natural_26900701_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-millen-natural.jpg",
+      "texture": "knit",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price taken from JSON-LD on 29 Oct 2026. Image URL taken from the same payload; confirm the file downloads in scripts/build_overlays.py."
+    },
+    {
+      "id": "adairs-leiden-throw",
+      "name": "Leiden Natural Boucle Throw",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "throw",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Page shows $99.99 and $89.99. The category listing calls $89.99 the Linen Lovers price. Totals use $99.99.",
+      "url": "https://www.adairs.com.au/homewares/throws/adairs/leiden-natural-boucle-throw/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2023_images/homewares/throws--blankets/56211_natural_01.jpg",
+      "imageFile": "assets/products/adairs-leiden-throw.jpg",
+      "texture": "boucle",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page text and image URL retrieved 29 Oct 2026. Direct HTTP to adairs.com.au returned 403. Image saved via a public image proxy."
+    },
+    {
+      "id": "adairs-belgian-throw",
+      "name": "Belgian Vintage Wash Linen Throw - Linen",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "throw",
+      "priceAud": 199.99,
+      "priceIsFrom": false,
+      "priceNote": "Page shows RRP $199.99 and $179.99 beside a Linen Lovers label. Totals use $199.99.",
+      "url": "https://www.adairs.com.au/homewares/throws/adairs/belgian-vintage-wash-linen-throw-linen/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2025_images/homewares/throws--blankets/60922_linen_01.jpg",
+      "imageFile": "assets/products/adairs-belgian-throw.jpg",
+      "texture": "linen",
+      "colourName": "Linen",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Product page text and image URL retrieved 29 Oct 2026. Direct HTTP to adairs.com.au returned 403. Image saved via a public image proxy."
+    },
+    {
+      "id": "bbnt-cambridge-cream",
+      "name": "Cambridge Throw - Cream",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/homewares/throws/cambridge-cream-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Throws-Cambridge_Cream_SI.jpg",
+      "imageFile": "assets/products/bbnt-cambridge-cream.jpg",
+      "texture": "cotton",
+      "colourName": "Cream",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-josie-blue",
+      "name": "Josie Striped Tassel Throw - Soft Blue",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm.",
+      "url": "https://www.bedbathntable.com.au/josie-soft-blue-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Josie-Throw_Soft-Blue_26937103_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-josie-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Soft blue",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-moss-natural",
+      "name": "Moss Throw - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 129.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/homewares/throws/moss-natural-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F-Moss-Border-Throw-Natural-18445505.jpg",
+      "imageFile": "assets/products/bbnt-moss-natural.jpg",
+      "texture": "weave",
+      "colourName": "Natural",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-millen-mushroom",
+      "name": "Millen Chunky Knit Throw - Mushroom",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm.",
+      "url": "https://www.bedbathntable.com.au/millen-mushroom-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Millen-Chunky-Knit-Throw_Mushroom_26900703_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-millen-mushroom.jpg",
+      "texture": "knit",
+      "colourName": "Mushroom",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-chunky-sage",
+      "name": "Chunky Tassel Throw - Pale Sage",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/chunky-pale-sage-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Throws-Chunky_Tassel_Pale-Sage_SI.jpg",
+      "imageFile": "assets/products/bbnt-chunky-sage.jpg",
+      "texture": "knit",
+      "colourName": "Pale sage",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-josie-olive",
+      "name": "Josie Striped Tassel Throw - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm. Page also showed a higher was-price on a related colour in search; this URL's JSON-LD price is $89.95.",
+      "url": "https://www.bedbathntable.com.au/josie-olive-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Josie-Throw_Olive_26937104_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-josie-olive.jpg",
+      "texture": "cotton",
+      "colourName": "Olive",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-sahara",
+      "name": "Sahara Framed Linen Wall Art",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "Linen / white. About 60 x 60cm. The room overlay uses the artwork from this photo. The card shows the full product photo.",
+      "url": "https://www.bedbathntable.com.au/sahara-framed-linen-wall-art-linen-white-25891601",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Summer_S24-25_LS_Studio_Decorator_Framed_Canvas_Sahara_SI.jpg",
+      "imageFile": "assets/products/bbnt-sahara.jpg",
+      "texture": "canvas",
+      "colourName": "Linen and white",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $69.95. The image path above is the filename pattern used by sibling canvases; build_overlays.py records the real download status.",
+      "placementCrop": [
+        0.33,
+        0.05,
+        0.66,
+        0.38
+      ]
+    },
+    {
+      "id": "bbnt-cotton-cloud",
+      "name": "Cotton Cloud Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/cotton-cloud-framed-canvas-27358601",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_S26-27_Cotton-Cloud-Framed-Canvas_White-Black_27358601_SI.jpg",
+      "imageFile": "assets/products/bbnt-cotton-cloud.jpg",
+      "texture": "canvas",
+      "colourName": "White and black",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $89.95. Image filename is completed from the partial path in that payload; build_overlays.py records whether it downloaded."
+    },
+    {
+      "id": "tw-mineral",
+      "name": "Organic Mineral Flow II Canvas Wall Art",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "wall-art",
+      "priceAud": 217,
+      "priceIsFrom": true,
+      "priceNote": "From $217. Sizes and frames run up to $514 on the page. The $217 figure is the structured-data offer. Warm abstract with a thin green line, used as the 10% accent.",
+      "url": "https://www.templeandwebster.com.au/Organic-Mineral-Flow-II-Canvas-Wall-Art-JBEN1869.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39142/21101281/4/Organic%2BMineral%2BFlow%2BII%2BCanvas%2BWall%2BArt.jpg",
+      "imageFile": "assets/products/tw-mineral.jpg",
+      "texture": "canvas",
+      "colourName": "Sand, clay and a green line",
+      "placementCrop": [
+        0,
+        0,
+        1,
+        0.42
+      ],
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $217). Direct HTTP to the site returned 403. Image host returned 200. The room overlay uses the artwork at the top of the lifestyle photo; the card shows the full product photo."
+    },
+    {
+      "id": "bbnt-carolina",
+      "name": "Carolina Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "Light blue. The room overlay uses the artwork from this photo. The card shows the full product photo.",
+      "url": "https://www.bedbathntable.com.au/carolina-framed-canvas-light-blue-multi-25890701",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Summer_S24-25_LS_Studio_Decorator_Framed_Canvas_Carolina_SI.jpg",
+      "imageFile": "assets/products/bbnt-carolina.jpg",
+      "texture": "canvas",
+      "colourName": "Light blue",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price $69.95 and image URL taken from JSON-LD on 29 Oct 2026.",
+      "placementCrop": [
+        0.33,
+        0.06,
+        0.66,
+        0.54
+      ]
+    },
+    {
+      "id": "bbnt-blooms",
+      "name": "Blooms Framed Canvas - Blue/White",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "Same price as Carolina. It is the Better pick because the picture is a closer botanical, not because it costs more.",
+      "url": "https://www.bedbathntable.com.au/blooms-framed-canvas-blue-white-25891501",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Blooms-Framed-Canvas_Blue-White_25891501_SI.jpg",
+      "imageFile": "assets/products/bbnt-blooms.jpg",
+      "texture": "canvas",
+      "colourName": "Blue and white",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price $69.95 and image URL taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-gold-magnolia",
+      "name": "Gold Magnolia Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 99.95,
+      "priceIsFrom": false,
+      "priceNote": "White and gold. The room overlay uses the artwork from this photo. The card shows the full product photo.",
+      "url": "https://www.bedbathntable.com.au/gold-magnolia-framed-canvas-white-gold-26646201",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Summer_S25-26_LS_Decor_Gold-Magnolia-Framed-Canvas.jpg",
+      "imageFile": "assets/products/bbnt-gold-magnolia.jpg",
+      "texture": "canvas",
+      "colourName": "White and gold",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $99.95. Image filename is completed from the partial path; build_overlays.py records the download.",
+      "placementCrop": [
+        0.231,
+        0.115,
+        0.765,
+        0.9
+      ]
+    },
+    {
+      "id": "bbnt-flower-bloom",
+      "name": "Flower Bloom Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 79.95,
+      "priceIsFrom": false,
+      "priceNote": "Green and white.",
+      "url": "https://www.bedbathntable.com.au/flower-bloom-framed-canvas-green-white-26173101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Flower-Bloom-Framed-Canvas_Green-White_26173101_SI.jpg",
+      "imageFile": "assets/products/bbnt-flower-bloom.jpg",
+      "texture": "canvas",
+      "colourName": "Green and white",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price $79.95 and image URL taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-chrysanthemum",
+      "name": "Chrysanthemum Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "Pink multi. This is the floral 10% in Olive and bloom.",
+      "url": "https://www.bedbathntable.com.au/chrysanthemum-framed-canvas-27358701",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_S26-27_Chrysanthemum-Framed-Canvas_Pink-Multi_27358701_SI.jpg",
+      "imageFile": "assets/products/bbnt-chrysanthemum.jpg",
+      "texture": "canvas",
+      "colourName": "Pink",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price $89.95 and image URL taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-honeysuckle",
+      "name": "Native Honeysuckle Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 99.95,
+      "priceIsFrom": false,
+      "priceNote": "The file name on the product image includes Pink multi.",
+      "url": "https://www.bedbathntable.com.au/native-honeysuckle-framed-canvas-27358301",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_S26-27_Native-Honeysuckle-Framed-Canvas_Pink-Multi_27358301_SI.jpg",
+      "imageFile": "assets/products/bbnt-honeysuckle.jpg",
+      "texture": "canvas",
+      "colourName": "Pink botanical",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $99.95. Image filename is completed from the partial path; build_overlays.py records the download."
+    },
+    {
+      "id": "ikea-gurli-unbleached",
+      "name": "GURLI cushion cover, unbleached, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 4.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/gurli-cushion-cover-unbleached-00598730/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/gurli-cushion-cover-unbleached__1409327_pe972205_s5.jpg",
+      "imageFile": "assets/products/ikea-gurli-unbleached.jpg",
+      "texture": "cotton",
+      "colourName": "Unbleached",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-ekguldmal-natural",
+      "name": "EKGULDMAL cushion cover, geometric natural, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 14.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/ekguldmal-cushion-cover-geometric-natural-80566886/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/ekguldmal-cushion-cover-geometric-natural__1203767_pe906437_s5.jpg",
+      "imageFile": "assets/products/ikea-ekguldmal-natural.jpg",
+      "texture": "cotton",
+      "colourName": "Geometric natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-unbleached",
+      "name": "DYT\u00c5G cushion cover, unbleached, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 19.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/dytag-cushion-cover-unbleached-00625446/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-cushion-cover-unbleached__1545068_pe1019556_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-unbleached.jpg",
+      "texture": "linen",
+      "colourName": "Unbleached",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lohals-133",
+      "name": "LOHALS rug, flatwoven, natural, 133x195 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 89.99,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 133x195 cm.",
+      "url": "https://www.ikea.com/au/en/p/lohals-rug-flatwoven-natural-50511287/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lohals-rug-flatwoven-natural__0280221_pe419173_s5.jpg",
+      "imageFile": "assets/products/ikea-lohals-133.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-tidtabell-beige",
+      "name": "TIDTABELL rug, flatwoven, beige, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, beige, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/tidtabell-rug-flatwoven-beige-90561850/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/tidtabell-rug-flatwoven-beige__1185180_pe898299_s5.jpg",
+      "imageFile": "assets/products/ikea-tidtabell-beige.jpg",
+      "texture": "wool",
+      "colourName": "Beige",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bronden-beige",
+      "name": "BR\u00d6NDEN rug, low pile, handmade beige, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 399,
+      "priceIsFrom": false,
+      "priceNote": "Low pile, handmade, beige, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/broenden-rug-low-pile-handmade-beige-90480552/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/broenden-rug-low-pile-handmade-beige__0804523_pe769465_s5.jpg",
+      "imageFile": "assets/products/ikea-bronden-beige.jpg",
+      "texture": "wool",
+      "colourName": "Beige",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-gunnemor",
+      "name": "GUNNEMOR throw, off-white/grey-beige, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 15.99,
+      "priceIsFrom": false,
+      "priceNote": "Off-white/grey-beige, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/gunnemor-throw-off-white-grey-beige-40516474/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/gunnemor-throw-off-white-grey-beige__1033633_pe837370_s5.jpg",
+      "imageFile": "assets/products/ikea-gunnemor.jpg",
+      "texture": "cotton",
+      "colourName": "Off-white",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-offwhite",
+      "name": "VALLKRASSING throw, off-white, 150x200 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 25.99,
+      "priceIsFrom": false,
+      "priceNote": "Off-white, 150x200 cm.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-throw-off-white-40570927/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-throw-off-white__1207651_pe908114_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-offwhite.jpg",
+      "texture": "cotton",
+      "colourName": "Off-white",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lapptag",
+      "name": "LAPPT\u00c5G throw, off-white, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 59.99,
+      "priceIsFrom": false,
+      "priceNote": "Off-white, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/lapptag-throw-off-white-90572207/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lapptag-throw-off-white__1249622_pe923392_s5.jpg",
+      "imageFile": "assets/products/ikea-lapptag.jpg",
+      "texture": "cotton",
+      "colourName": "Off-white",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bild-curves",
+      "name": "BILD poster, Nordic curves, 30x40 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 5.99,
+      "priceIsFrom": false,
+      "priceNote": "Poster only. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/bild-poster-nordic-curves-50623360/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/bild-poster-nordic-curves__1484195_pe1001489_s5.jpg",
+      "imageFile": "assets/products/ikea-bild-curves.jpg",
+      "texture": "paper",
+      "colourName": "Nordic curves",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-blodflader-birds",
+      "name": "BLODFL\u00c4DER picture, two birds, 40x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 39.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 40x50 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-two-birds-50601928/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-two-birds__1392148_pe966012_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-birds.jpg",
+      "texture": "canvas",
+      "colourName": "Two birds",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.045
+    },
+    {
+      "id": "ikea-blodflader-leaves",
+      "name": "BLODFL\u00c4DER picture, black leaves, 40x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 69.99,
+      "priceIsFrom": false,
+      "priceNote": "2 pack. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-black-leaves-80623858/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-black-leaves__1512991_pe1010558_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-leaves.jpg",
+      "texture": "canvas",
+      "colourName": "Black leaves",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.05,
+      "placementCrop": [
+        0.02,
+        0.22,
+        0.48,
+        0.78
+      ]
+    },
+    {
+      "id": "ikea-lagerpoppel-blue",
+      "name": "LAGERPOPPEL cushion cover, light blue-grey, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 4.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/lagerpoppel-cushion-cover-light-blue-grey-20561815/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lagerpoppel-cushion-cover-light-blue-grey__1259177_pe926582_s5.jpg",
+      "imageFile": "assets/products/ikea-lagerpoppel-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Light blue-grey",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-cushion-blue",
+      "name": "VALLKRASSING cushion cover, light blue-grey, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-cushion-cover-light-blue-grey-20570966/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-cushion-cover-light-blue-grey__1204905_pe906872_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-cushion-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Light blue-grey",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-blue",
+      "name": "DYT\u00c5G cushion cover, grey-blue, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 19.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/dytag-cushion-cover-grey-blue-60625467/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-cushion-cover-grey-blue__1502345_pe1007603_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-blue.jpg",
+      "texture": "linen",
+      "colourName": "Grey-blue",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lohals-round",
+      "name": "LOHALS rug, flatwoven, natural, 130 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 69.99,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 130 cm round.",
+      "url": "https://www.ikea.com/au/en/p/lohals-rug-flatwoven-natural-00494191/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lohals-rug-flatwoven-natural__0982474_pe815667_s5.jpg",
+      "imageFile": "assets/products/ikea-lohals-round.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-stroeg",
+      "name": "STR\u00d6G rug, flatwoven, natural, 155x220 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 79.99,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 155x220 cm.",
+      "url": "https://www.ikea.com/au/en/p/stroeg-rug-flatwoven-natural-70527046/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/stroeg-rug-flatwoven-natural__1062489_pe850843_s5.jpg",
+      "imageFile": "assets/products/ikea-stroeg.jpg",
+      "texture": "cotton",
+      "colourName": "Natural",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-tidtabell-greyblue",
+      "name": "TIDTABELL rug, flatwoven, grey-blue, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, grey-blue, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/tidtabell-rug-flatwoven-grey-blue-20561863/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/tidtabell-rug-flatwoven-grey-blue__1185074_pe898255_s5.jpg",
+      "imageFile": "assets/products/ikea-tidtabell-greyblue.jpg",
+      "texture": "wool",
+      "colourName": "Grey-blue",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-holmvi",
+      "name": "HOLMVI throw, blue, 120x160 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Blue, 120x160 cm.",
+      "url": "https://www.ikea.com/au/en/p/holmvi-throw-blue-80604685/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/holmvi-throw-blue__1385051_pe963137_s5.jpg",
+      "imageFile": "assets/products/ikea-holmvi.jpg",
+      "texture": "cotton",
+      "colourName": "Blue",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-throw-blue",
+      "name": "VALLKRASSING throw, light blue-grey, 150x200 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 25.99,
+      "priceIsFrom": false,
+      "priceNote": "Light blue-grey, 150x200 cm.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-throw-light-blue-grey-90570944/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-throw-light-blue-grey__1207654_pe908123_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-throw-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Light blue-grey",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-myrull",
+      "name": "MYRULL throw, light grey, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "Light grey, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/myrull-throw-light-grey-70563483/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/myrull-throw-light-grey__1187183_pe899082_s5.jpg",
+      "imageFile": "assets/products/ikea-myrull.jpg",
+      "texture": "cotton",
+      "colourName": "Light grey",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bild-mountains",
+      "name": "BILD poster, Nordic mountains, 50x40 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 6.99,
+      "priceIsFrom": false,
+      "priceNote": "Poster only. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/bild-poster-nordic-mountains-40623351/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/bild-poster-nordic-mountains__1484196_pe1001491_s5.jpg",
+      "imageFile": "assets/products/ikea-bild-mountains.jpg",
+      "texture": "paper",
+      "colourName": "Nordic mountains",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-blodflader-nazare",
+      "name": "BLODFL\u00c4DER picture, Nazar\u00e9, 50x70 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 50x70 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-nazare-60601918/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-nazare__1392151_pe966013_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-nazare.jpg",
+      "texture": "canvas",
+      "colourName": "Nazar\u00e9",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.045
+    },
+    {
+      "id": "ikea-blodflader-giverny",
+      "name": "BLODFL\u00c4DER picture, The Seine at Giverny, 118x78 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 118x78 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-the-seine-at-giverny-00601916/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-the-seine-at-giverny__1392143_pe966004_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-giverny.jpg",
+      "texture": "canvas",
+      "colourName": "The Seine at Giverny",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.045
+    },
+    {
+      "id": "ikea-lagerpoppel-green",
+      "name": "LAGERPOPPEL cushion cover, grey-green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 4.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/lagerpoppel-cushion-cover-grey-green-70561813/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lagerpoppel-cushion-cover-grey-green__1259173_pe926576_s5.jpg",
+      "imageFile": "assets/products/ikea-lagerpoppel-green.jpg",
+      "texture": "cotton",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-cushion-green",
+      "name": "VALLKRASSING cushion cover, grey-green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-cushion-cover-grey-green-90570958/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-cushion-cover-grey-green__1204906_pe906875_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-cushion-green.jpg",
+      "texture": "cotton",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-cushion-green",
+      "name": "DYT\u00c5G cushion cover, grey-green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 19.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/dytag-cushion-cover-grey-green-50554130/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-cushion-cover-grey-green__1157569_pe887764_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-cushion-green.jpg",
+      "texture": "linen",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lohals-160",
+      "name": "LOHALS rug, flatwoven, natural, 160x230 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 119,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 160x230 cm.",
+      "url": "https://www.ikea.com/au/en/p/lohals-rug-flatwoven-natural-30277394/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lohals-rug-flatwoven-natural__0280221_pe419173_s5.jpg",
+      "imageFile": "assets/products/ikea-lohals-160.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-stoense",
+      "name": "STOENSE rug, low pile, pale green, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 149,
+      "priceIsFrom": false,
+      "priceNote": "Low pile, pale green, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/stoense-rug-low-pile-pale-green-10629156/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/stoense-rug-low-pile-pale-green__1492281_pe1004363_s5.jpg",
+      "imageFile": "assets/products/ikea-stoense.jpg",
+      "texture": "weave",
+      "colourName": "Pale green",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-tidtabell-green",
+      "name": "TIDTABELL rug, flatwoven, green, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, green, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/tidtabell-rug-flatwoven-green-20569393/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/tidtabell-rug-flatwoven-green__1205724_pe907222_s5.jpg",
+      "imageFile": "assets/products/ikea-tidtabell-green.jpg",
+      "texture": "wool",
+      "colourName": "Green",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-sandbrodd",
+      "name": "SANDBRODD throw, light green, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 15.99,
+      "priceIsFrom": false,
+      "priceNote": "Light green, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/sandbrodd-throw-light-green-50582114/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/sandbrodd-throw-light-green__1260005_pe926878_s5.jpg",
+      "imageFile": "assets/products/ikea-sandbrodd.jpg",
+      "texture": "cotton",
+      "colourName": "Light green",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-throw-green",
+      "name": "VALLKRASSING throw, grey-green, 150x200 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 25.99,
+      "priceIsFrom": false,
+      "priceNote": "Grey-green, 150x200 cm.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-throw-grey-green-70570935/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-throw-grey-green__1207660_pe908117_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-throw-green.jpg",
+      "texture": "cotton",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-throw-green",
+      "name": "DYT\u00c5G throw, grey-green, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "Grey-green, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/dytag-throw-grey-green-30554150/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-throw-grey-green__1157589_pe887780_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-throw-green.jpg",
+      "texture": "linen",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bild-flowers",
+      "name": "BILD poster, Nordic flowers, 40x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 6.99,
+      "priceIsFrom": false,
+      "priceNote": "Poster only. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/bild-poster-nordic-flowers-10623357/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/bild-poster-nordic-flowers__1484197_pe1001492_s5.jpg",
+      "imageFile": "assets/products/ikea-bild-flowers.jpg",
+      "texture": "paper",
+      "colourName": "Nordic flowers",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-gronmes",
+      "name": "GR\u00d6NMES picture, checkered flower, 56x56 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 39.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 56x56 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/groenmes-picture-checkered-flower-50624010/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/groenmes-picture-checkered-flower__1514107_pe1010841_s5.jpg",
+      "imageFile": "assets/products/ikea-gronmes.jpg",
+      "texture": "canvas",
+      "colourName": "Checkered flower",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-blodflader-floral",
+      "name": "BLODFL\u00c4DER picture, floral simplicity, 30x40 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "2 pack. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-floral-simplicity-80623472/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-floral-simplicity__1513997_pe1010766_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-floral.jpg",
+      "texture": "canvas",
+      "colourName": "Floral simplicity",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.05,
+      "placementCrop": [
+        0.02,
+        0.21,
+        0.46,
+        0.79
+      ]
+    },
+    {
+      "id": "josh-sanela-yellow",
+      "name": "SANELA cushion cover, yellow-brown, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. Needs a 50x50 cm INNER pad, $6.",
+      "url": "https://www.ikea.com/au/en/p/sanela-cushion-cover-yellow-brown-70635989/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/sanela-cushion-cover-yellow-brown__1502327_pe1007597_s5.jpg",
+      "imageFile": "assets/products/josh-sanela-yellow.jpg",
+      "texture": "velvet",
+      "colourName": "Yellow-brown",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-back",
+      "innerPadAud": 6
+    },
+    {
+      "id": "josh-sanela-green",
+      "name": "SANELA cushion cover, dark green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. Needs a 50x50 cm INNER pad, $6.",
+      "url": "https://www.ikea.com/au/en/p/sanela-cushion-cover-dark-green-60636003/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/sanela-cushion-cover-dark-green__1502326_pe1007596_s5.jpg",
+      "imageFile": "assets/products/josh-sanela-green.jpg",
+      "texture": "velvet",
+      "colourName": "Dark green",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-front",
+      "innerPadAud": 6
+    },
+    {
+      "id": "josh-kryddbuske",
+      "name": "KRYDDBUSKE cushion cover, brown-red, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. Needs a 50x50 cm INNER pad, $6.",
+      "url": "https://www.ikea.com/au/en/p/kryddbuske-cushion-cover-brown-red-00624362/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/kryddbuske-cushion-cover-brown-red__1478222_pe1007674_s5.jpg",
+      "imageFile": "assets/products/josh-kryddbuske.jpg",
+      "texture": "cotton",
+      "colourName": "Brown-red",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "chaise",
+      "innerPadAud": 6
+    },
+    {
+      "id": "josh-margot-clay",
+      "name": "Margot Velvet Cushion - Clay",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "Clay velvet, 50x50 cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/margot-clay-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushions-Margot_Velvet-Clay_SI.jpg",
+      "imageFile": "assets/products/josh-margot-clay.jpg",
+      "texture": "velvet",
+      "colourName": "Clay",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "chaise",
+      "placementCrop": [
+        0.4,
+        0.32,
+        0.66,
+        0.54
+      ]
+    },
+    {
+      "id": "josh-sorano-tobacco",
+      "name": "Sorano Linen Blend Cushion - Tobacco",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "Hand wash only. 50x50 cm.",
+      "url": "https://www.bedbathntable.com.au/sorano-tabacco-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Tobacco_SI_1.jpg",
+      "imageFile": "assets/products/josh-sorano-tobacco.jpg",
+      "texture": "linen",
+      "colourName": "Tobacco",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-back",
+      "placementCrop": [
+        0.54,
+        0.3,
+        0.82,
+        0.58
+      ]
+    },
+    {
+      "id": "josh-everett-olive",
+      "name": "Everett Linen Cushion - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "Olive linen, 50x50 cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/everett-olive-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Everett_Olive_SI_1.jpg",
+      "imageFile": "assets/products/josh-everett-olive.jpg",
+      "texture": "linen",
+      "colourName": "Olive",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-front",
+      "placementCrop": [
+        0.42,
+        0.44,
+        0.78,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-otis-cinnamon",
+      "name": "Otis Cinnamon Boucle Cushion",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "cushions",
+      "priceAud": 89.99,
+      "priceIsFrom": false,
+      "priceNote": "Cinnamon boucle, 40x60 cm.",
+      "url": "https://www.adairs.com.au/homewares/cushions/adairs/otis-cinnamon-boucle-cushion/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2025_images/homewares/cushions/49448_cinnamon_03.jpg",
+      "imageFile": "assets/products/josh-otis-cinnamon.jpg",
+      "texture": "boucle",
+      "colourName": "Cinnamon",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "chaise",
+      "placementCrop": [
+        0.34,
+        0.44,
+        0.72,
+        0.6
+      ]
+    },
+    {
+      "id": "josh-bailey-olive",
+      "name": "Bailey Olive Cushion",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "cushions",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Olive.",
+      "url": "https://www.adairs.com.au/homewares/cushions/adairs/bailey-olive-cushion/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/cushions/61096_olive_01.jpg",
+      "imageFile": "assets/products/josh-bailey-olive.jpg",
+      "texture": "cotton",
+      "colourName": "Olive",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-front",
+      "placementCrop": [
+        0.28,
+        0.38,
+        0.78,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-fenton-brownsugar",
+      "name": "Fenton Brown Sugar Velvet Cushion",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "cushions",
+      "priceAud": 69.99,
+      "priceIsFrom": false,
+      "priceNote": "Brown sugar velvet.",
+      "url": "https://www.adairs.com.au/homewares/cushions/adairs/fenton-brown-sugar-velvet-cushion/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/cushions/61294_brownsuga2.jpg",
+      "imageFile": "assets/products/josh-fenton-brownsugar.jpg",
+      "texture": "velvet",
+      "colourName": "Brown sugar",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-back",
+      "placementCrop": [
+        0.28,
+        0.28,
+        0.72,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-humlemott",
+      "name": "HUMLEMOTT throw, red-brown, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 26.99,
+      "priceIsFrom": false,
+      "priceNote": "Red-brown, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/humlemott-throw-red-brown-20618143/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/humlemott-throw-red-brown__1434092_pe983378_s5.jpg",
+      "imageFile": "assets/products/josh-humlemott.jpg",
+      "texture": "cotton",
+      "colourName": "Red-brown",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.12,
+        0.08,
+        0.55,
+        0.32
+      ]
+    },
+    {
+      "id": "josh-josie-olive",
+      "name": "Josie Striped Tassel Throw - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "Olive, 127x152 cm.",
+      "url": "https://www.bedbathntable.com.au/josie-olive-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Josie-Throw_Olive_26937104_SI_1.jpg",
+      "imageFile": "assets/products/josh-josie-olive.jpg",
+      "texture": "chenille",
+      "colourName": "Olive",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.22,
+        0.52,
+        0.4,
+        0.66
+      ]
+    },
+    {
+      "id": "josh-leiden-brownsugar",
+      "name": "Leiden Brown Sugar Boucle Throw",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "throw",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Brown sugar boucle.",
+      "url": "https://www.adairs.com.au/homewares/throws/adairs/leiden-brown-sugar-boucle-throw/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/throws--blankets/133458_01.jpg",
+      "imageFile": "assets/products/josh-leiden-brownsugar.jpg",
+      "texture": "boucle",
+      "colourName": "Brown sugar",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.38,
+        0.34,
+        0.52,
+        0.58
+      ]
+    },
+    {
+      "id": "josh-stoense-beige",
+      "name": "STOENSE rug, low pile, beige, 200x300 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "200x300 cm. Needs underlay on tiles.",
+      "url": "https://www.ikea.com/au/en/p/stoense-rug-low-pile-beige-50607685/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/stoense-rug-low-pile-beige__1405718_pe970549_s5.jpg",
+      "imageFile": "assets/products/josh-stoense-beige.jpg",
+      "texture": "weave",
+      "colourName": "Beige",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026."
+    },
+    {
+      "id": "josh-sari-rug",
+      "name": "Supersoft Washable Sari Rug",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "rug",
+      "priceAud": 314.99,
+      "priceIsFrom": false,
+      "priceNote": "200x300 cm. Needs underlay on tiles.",
+      "url": "https://www.adairs.com.au/homewares/floor-rugs-mats/adairs/supersoft-washable-sari-rug/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2023_images/furniture/floor-rugs--mats/56391_sari_04.jpg",
+      "imageFile": "assets/products/josh-sari-rug.jpg",
+      "texture": "weave",
+      "colourName": "Sari",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.48,
+        0.4,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-echo-chocolate",
+      "name": "Echo Chocolate Hand Tufted Wool Rug",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "rug",
+      "priceAud": 979.99,
+      "priceIsFrom": false,
+      "priceNote": "200x300 cm. Loop pile. It can snag. Needs underlay on tiles.",
+      "url": "https://www.adairs.com.au/homewares/floor-rugs-mats/adairs/echo-chocolate-hand-tufted-cut-and-loop-wool-rug/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/furniture/rugs/61755_chocolate_1.jpg",
+      "imageFile": "assets/products/josh-echo-chocolate.jpg",
+      "texture": "wool",
+      "colourName": "Chocolate",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.0,
+        0.37,
+        1.0,
+        0.53
+      ]
+    },
+    {
+      "id": "josh-pjaetteryd",
+      "name": "PJ\u00c4TTERYD picture, Swedish sand dunes, 56x56 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 59.99,
+      "priceIsFrom": false,
+      "priceNote": "56x56 cm.",
+      "url": "https://www.ikea.com/au/en/p/pjaetteryd-picture-swedish-sand-dunes-20602019/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/pjaetteryd-picture-swedish-sand-dunes__1385657_pe963379_s5.jpg",
+      "imageFile": "assets/products/josh-pjaetteryd.jpg",
+      "texture": "canvas",
+      "colourName": "Sand",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "fillFrame": true,
+      "placementCrop": [
+        0.343,
+        0.343,
+        0.655,
+        0.66
+      ]
+    },
+    {
+      "id": "josh-umber-abstract",
+      "name": "Umber Abstract Framed Canvas",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "wall-art",
+      "priceAud": 149,
+      "priceIsFrom": false,
+      "priceNote": "Framed canvas, 80x80 cm.",
+      "url": "https://www.templeandwebster.com.au/Umber-Abstract-Framed-Canvas-Wall-Art-TMPL5493.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/38080/20339438/4/Umber%2BAbstract%2BFramed%2BCanvas%2BWall%2BArt.jpg",
+      "imageFile": "assets/products/josh-umber-abstract.jpg",
+      "texture": "canvas",
+      "colourName": "Umber",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "fillFrame": true,
+      "placementCrop": [
+        0.21,
+        0.1,
+        0.76,
+        0.6
+      ]
+    },
+    {
+      "id": "josh-chesil-trio",
+      "name": "Chesil Chocolate & Natural Trio Canvas",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "wall-art",
+      "priceAud": 160.99,
+      "priceIsFrom": false,
+      "priceNote": "Trio canvas.",
+      "url": "https://www.adairs.com.au/homewares/wall-art--mirrors--clocks/adairs/chesil-chocolate--natural-trio-canvas/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/wall-art/202260_chocolaten_1.jpg",
+      "imageFile": "assets/products/josh-chesil-trio.jpg",
+      "texture": "canvas",
+      "colourName": "Chocolate",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "fillFrame": true,
+      "placementCrop": [
+        0.21,
+        0.17,
+        0.815,
+        0.745
+      ]
+    }
+  ]
+}

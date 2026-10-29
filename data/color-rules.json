@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "summary": "Anchor on what cannot move (walls, sofa, timber, light). Build a 60/30/10 palette, pick a harmony that suits the style, keep undertones compatible, and vary texture across the four categories.",
+  "anchors": {
+    "role": "Fixed elements are read from the photo and are never recolored.",
+    "ids": ["walls", "sofa", "timber", "light"]
+  },
+  "split": {
+    "name": "60/30/10",
+    "dominant60": "The largest area. Start from the wall colour. Textiles in this share stay close to it so the room still feels like itself.",
+    "secondary30": "Sofa, rug and timber. This share carries the material weight: weave, jute, oak.",
+    "accent10": "One idea only, usually a cushion, the art, or a throw edge. If the accent is loud, it stays in this share."
+  },
+  "harmony": {
+    "analogous": "Accent hue stays within about 30 degrees of the timber hue, or slides toward the wall if the style is cooler. Use for calm, related schemes.",
+    "complementary": "Accent sits near the opposite of the timber hue, then greyed down so it does not vibrate against the oak. Use sparingly.",
+    "monochrome": "Accent is a deeper or lighter version of the same hue as the timber or the wall. Use when the style is about texture more than colour."
+  },
+  "undertone": {
+    "rule": "Warm timber plus cool walls means the palette has to bridge them. Do not add an icy blue (it fights the oak) or a saturated orange (it fights the grey walls). Cool accents are greyed. Warm accents are softened with the wall colour.",
+    "warmHueRange": [15, 50],
+    "bridge": "Mix a little of the timber into a cool wall colour before using it as the 60 for a warm style. For a cool style, keep the wall and grey the accent."
+  },
+  "texture": {
+    "rule": "Each style should use at least three texture families across cushions, rug, throw and art.",
+    "families": ["linen", "cotton", "weave", "jute", "boucle", "knit", "velvet", "canvas"]
+  },
+  "future": "When a live photo is uploaded, sample the same four anchors and pass them through derivePalette in js/style-engine.js. Do not hard-code a new palette per photo."
+}

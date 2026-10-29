@@ -1,0 +1,1014 @@
+{
+  "checkedOn": "2026-10-29",
+  "placement": "Product photos are placed inside a fixed mask. This is not a new photo of the room and not an AI illustration.",
+  "rooms": {
+    "josh-lounge": {
+      "base": "assets/room/josh.jpg",
+      "width": 1600,
+      "height": 1200,
+      "overlays": {
+        "josh-sanela-yellow": {
+          "file": "assets/overlays/josh-sanela-yellow.png",
+          "x": 240,
+          "y": 384,
+          "width": 231,
+          "height": 185
+        },
+        "josh-sanela-green": {
+          "file": "assets/overlays/josh-sanela-green.png",
+          "x": 392,
+          "y": 400,
+          "width": 199,
+          "height": 169
+        },
+        "josh-kryddbuske": {
+          "file": "assets/overlays/josh-kryddbuske.png",
+          "x": 892,
+          "y": 434,
+          "width": 277,
+          "height": 123
+        },
+        "josh-margot-clay": {
+          "file": "assets/overlays/josh-margot-clay.png",
+          "x": 892,
+          "y": 434,
+          "width": 277,
+          "height": 123
+        },
+        "josh-sorano-tobacco": {
+          "file": "assets/overlays/josh-sorano-tobacco.png",
+          "x": 240,
+          "y": 384,
+          "width": 231,
+          "height": 185
+        },
+        "josh-everett-olive": {
+          "file": "assets/overlays/josh-everett-olive.png",
+          "x": 392,
+          "y": 400,
+          "width": 199,
+          "height": 169
+        },
+        "josh-otis-cinnamon": {
+          "file": "assets/overlays/josh-otis-cinnamon.png",
+          "x": 892,
+          "y": 434,
+          "width": 277,
+          "height": 123
+        },
+        "josh-bailey-olive": {
+          "file": "assets/overlays/josh-bailey-olive.png",
+          "x": 392,
+          "y": 400,
+          "width": 199,
+          "height": 169
+        },
+        "josh-fenton-brownsugar": {
+          "file": "assets/overlays/josh-fenton-brownsugar.png",
+          "x": 240,
+          "y": 384,
+          "width": 231,
+          "height": 185
+        },
+        "josh-humlemott": {
+          "file": "assets/overlays/josh-humlemott.png",
+          "x": 1115,
+          "y": 582,
+          "width": 274,
+          "height": 157
+        },
+        "josh-josie-olive": {
+          "file": "assets/overlays/josh-josie-olive.png",
+          "x": 1115,
+          "y": 582,
+          "width": 274,
+          "height": 157
+        },
+        "josh-leiden-brownsugar": {
+          "file": "assets/overlays/josh-leiden-brownsugar.png",
+          "x": 1115,
+          "y": 582,
+          "width": 274,
+          "height": 157
+        },
+        "josh-stoense-beige": {
+          "file": "assets/overlays/josh-stoense-beige.png",
+          "x": 0,
+          "y": 731,
+          "width": 1211,
+          "height": 469
+        },
+        "josh-sari-rug": {
+          "file": "assets/overlays/josh-sari-rug.png",
+          "x": 0,
+          "y": 731,
+          "width": 1211,
+          "height": 469
+        },
+        "josh-echo-chocolate": {
+          "file": "assets/overlays/josh-echo-chocolate.png",
+          "x": 0,
+          "y": 731,
+          "width": 1211,
+          "height": 469
+        },
+        "josh-pjaetteryd": {
+          "file": "assets/overlays/josh-pjaetteryd.png",
+          "x": 364,
+          "y": 74,
+          "width": 171,
+          "height": 179
+        },
+        "josh-umber-abstract": {
+          "file": "assets/overlays/josh-umber-abstract.png",
+          "x": 364,
+          "y": 74,
+          "width": 171,
+          "height": 179
+        },
+        "josh-chesil-trio": {
+          "file": "assets/overlays/josh-chesil-trio.png",
+          "x": 364,
+          "y": 74,
+          "width": 171,
+          "height": 179
+        }
+      },
+      "pixelCheck": [
+        {
+          "id": "josh-sanela-yellow",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-sanela-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-kryddbuske",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-margot-clay",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-sorano-tobacco",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-everett-olive",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-otis-cinnamon",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-bailey-olive",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-fenton-brownsugar",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-humlemott",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-josie-olive",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-leiden-brownsugar",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-stoense-beige",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-sari-rug",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-echo-chocolate",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-pjaetteryd",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-umber-abstract",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "josh-chesil-trio",
+          "outsidePixelsChanged": 0
+        }
+      ]
+    },
+    "stock-minh-pham-lounge": {
+      "base": "assets/room/base.jpg",
+      "width": 1400,
+      "height": 2100,
+      "overlays": {
+        "kmart-check-cushion": {
+          "file": "assets/overlays/kmart-check-cushion.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-sorano-natural": {
+          "file": "assets/overlays/bbnt-sorano-natural.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-everett-natural": {
+          "file": "assets/overlays/bbnt-everett-natural.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-linnea-ivory": {
+          "file": "assets/overlays/bbnt-linnea-ivory.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-sorano-smoke": {
+          "file": "assets/overlays/bbnt-sorano-smoke.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-flinders-smoke": {
+          "file": "assets/overlays/bbnt-flinders-smoke.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-margot-sage": {
+          "file": "assets/overlays/bbnt-margot-sage.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-sorano-olive": {
+          "file": "assets/overlays/bbnt-sorano-olive.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "bbnt-flinders-olive": {
+          "file": "assets/overlays/bbnt-flinders-olive.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "tw-organica": {
+          "file": "assets/overlays/tw-organica.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "adairs-campus": {
+          "file": "assets/overlays/adairs-campus.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "tw-jairus": {
+          "file": "assets/overlays/tw-jairus.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "tw-falcon": {
+          "file": "assets/overlays/tw-falcon.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "tw-columbia": {
+          "file": "assets/overlays/tw-columbia.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "tw-mikey": {
+          "file": "assets/overlays/tw-mikey.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "tw-alba": {
+          "file": "assets/overlays/tw-alba.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "kmart-indi-rug": {
+          "file": "assets/overlays/kmart-indi-rug.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "kmart-flecked-sage": {
+          "file": "assets/overlays/kmart-flecked-sage.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "bbnt-millen-natural": {
+          "file": "assets/overlays/bbnt-millen-natural.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "adairs-leiden-throw": {
+          "file": "assets/overlays/adairs-leiden-throw.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "adairs-belgian-throw": {
+          "file": "assets/overlays/adairs-belgian-throw.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-cambridge-cream": {
+          "file": "assets/overlays/bbnt-cambridge-cream.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-josie-blue": {
+          "file": "assets/overlays/bbnt-josie-blue.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-moss-natural": {
+          "file": "assets/overlays/bbnt-moss-natural.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-millen-mushroom": {
+          "file": "assets/overlays/bbnt-millen-mushroom.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-chunky-sage": {
+          "file": "assets/overlays/bbnt-chunky-sage.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-josie-olive": {
+          "file": "assets/overlays/bbnt-josie-olive.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "bbnt-sahara": {
+          "file": "assets/overlays/bbnt-sahara.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-cotton-cloud": {
+          "file": "assets/overlays/bbnt-cotton-cloud.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "tw-mineral": {
+          "file": "assets/overlays/tw-mineral.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-carolina": {
+          "file": "assets/overlays/bbnt-carolina.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-blooms": {
+          "file": "assets/overlays/bbnt-blooms.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-gold-magnolia": {
+          "file": "assets/overlays/bbnt-gold-magnolia.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-flower-bloom": {
+          "file": "assets/overlays/bbnt-flower-bloom.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-chrysanthemum": {
+          "file": "assets/overlays/bbnt-chrysanthemum.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "bbnt-honeysuckle": {
+          "file": "assets/overlays/bbnt-honeysuckle.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-gurli-unbleached": {
+          "file": "assets/overlays/ikea-gurli-unbleached.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-ekguldmal-natural": {
+          "file": "assets/overlays/ikea-ekguldmal-natural.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-dytag-unbleached": {
+          "file": "assets/overlays/ikea-dytag-unbleached.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-lohals-133": {
+          "file": "assets/overlays/ikea-lohals-133.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-tidtabell-beige": {
+          "file": "assets/overlays/ikea-tidtabell-beige.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-bronden-beige": {
+          "file": "assets/overlays/ikea-bronden-beige.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-gunnemor": {
+          "file": "assets/overlays/ikea-gunnemor.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-vallkrassing-offwhite": {
+          "file": "assets/overlays/ikea-vallkrassing-offwhite.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-lapptag": {
+          "file": "assets/overlays/ikea-lapptag.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-bild-curves": {
+          "file": "assets/overlays/ikea-bild-curves.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-blodflader-birds": {
+          "file": "assets/overlays/ikea-blodflader-birds.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-blodflader-leaves": {
+          "file": "assets/overlays/ikea-blodflader-leaves.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-lagerpoppel-blue": {
+          "file": "assets/overlays/ikea-lagerpoppel-blue.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-vallkrassing-cushion-blue": {
+          "file": "assets/overlays/ikea-vallkrassing-cushion-blue.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-dytag-blue": {
+          "file": "assets/overlays/ikea-dytag-blue.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-lohals-round": {
+          "file": "assets/overlays/ikea-lohals-round.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-stroeg": {
+          "file": "assets/overlays/ikea-stroeg.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-tidtabell-greyblue": {
+          "file": "assets/overlays/ikea-tidtabell-greyblue.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-holmvi": {
+          "file": "assets/overlays/ikea-holmvi.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-vallkrassing-throw-blue": {
+          "file": "assets/overlays/ikea-vallkrassing-throw-blue.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-myrull": {
+          "file": "assets/overlays/ikea-myrull.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-bild-mountains": {
+          "file": "assets/overlays/ikea-bild-mountains.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-blodflader-nazare": {
+          "file": "assets/overlays/ikea-blodflader-nazare.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-blodflader-giverny": {
+          "file": "assets/overlays/ikea-blodflader-giverny.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-lagerpoppel-green": {
+          "file": "assets/overlays/ikea-lagerpoppel-green.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-vallkrassing-cushion-green": {
+          "file": "assets/overlays/ikea-vallkrassing-cushion-green.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-dytag-cushion-green": {
+          "file": "assets/overlays/ikea-dytag-cushion-green.png",
+          "x": 215,
+          "y": 1088,
+          "width": 1026,
+          "height": 161
+        },
+        "ikea-lohals-160": {
+          "file": "assets/overlays/ikea-lohals-160.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-stoense": {
+          "file": "assets/overlays/ikea-stoense.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-tidtabell-green": {
+          "file": "assets/overlays/ikea-tidtabell-green.png",
+          "x": 0,
+          "y": 1458,
+          "width": 1326,
+          "height": 635
+        },
+        "ikea-sandbrodd": {
+          "file": "assets/overlays/ikea-sandbrodd.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-vallkrassing-throw-green": {
+          "file": "assets/overlays/ikea-vallkrassing-throw-green.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-dytag-throw-green": {
+          "file": "assets/overlays/ikea-dytag-throw-green.png",
+          "x": 740,
+          "y": 1288,
+          "width": 531,
+          "height": 213
+        },
+        "ikea-bild-flowers": {
+          "file": "assets/overlays/ikea-bild-flowers.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-gronmes": {
+          "file": "assets/overlays/ikea-gronmes.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        },
+        "ikea-blodflader-floral": {
+          "file": "assets/overlays/ikea-blodflader-floral.png",
+          "x": 844,
+          "y": 488,
+          "width": 257,
+          "height": 327
+        }
+      },
+      "pixelCheck": [
+        {
+          "id": "kmart-check-cushion",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-sorano-natural",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-everett-natural",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-linnea-ivory",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-sorano-smoke",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-flinders-smoke",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-margot-sage",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-sorano-olive",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-flinders-olive",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-organica",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "adairs-campus",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-jairus",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-falcon",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-columbia",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-mikey",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-alba",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "kmart-indi-rug",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "kmart-flecked-sage",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-millen-natural",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "adairs-leiden-throw",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "adairs-belgian-throw",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-cambridge-cream",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-josie-blue",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-moss-natural",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-millen-mushroom",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-chunky-sage",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-josie-olive",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-sahara",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-cotton-cloud",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "tw-mineral",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-carolina",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-blooms",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-gold-magnolia",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-flower-bloom",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-chrysanthemum",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "bbnt-honeysuckle",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-gurli-unbleached",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-ekguldmal-natural",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-dytag-unbleached",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-lohals-133",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-tidtabell-beige",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-bronden-beige",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-gunnemor",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-vallkrassing-offwhite",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-lapptag",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-bild-curves",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-blodflader-birds",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-blodflader-leaves",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-lagerpoppel-blue",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-vallkrassing-cushion-blue",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-dytag-blue",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-lohals-round",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-stroeg",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-tidtabell-greyblue",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-holmvi",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-vallkrassing-throw-blue",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-myrull",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-bild-mountains",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-blodflader-nazare",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-blodflader-giverny",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-lagerpoppel-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-vallkrassing-cushion-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-dytag-cushion-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-lohals-160",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-stoense",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-tidtabell-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-sandbrodd",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-vallkrassing-throw-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-dytag-throw-green",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-bild-flowers",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-gronmes",
+          "outsidePixelsChanged": 0
+        },
+        {
+          "id": "ikea-blodflader-floral",
+          "outsidePixelsChanged": 0
+        }
+      ]
+    }
+  }
+}
