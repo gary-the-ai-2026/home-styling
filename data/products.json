@@ -1,0 +1,717 @@
+{
+  "checkedOn": "2026-10-29",
+  "currency": "AUD",
+  "notes": "Prices are what the product page showed on the checked date. 'From' prices are the structured-data offer, which matches the low end of a size range, not a confirmed price for every size. Totals that include a from-price are labelled From.",
+  "products": [
+    {
+      "id": "kmart-check-cushion",
+      "name": "50cm Check Cotton Cushion Cover - Beige",
+      "store": "Kmart",
+      "storeId": "kmart",
+      "category": "cushions",
+      "priceAud": 7,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50cm insert is sold separately.",
+      "url": "https://www.kmart.com.au/product/50cm-check-cotton-cushion-cover-beige-43475735/",
+      "imageUrl": "https://assets.kmart.com.au/transform/d5f4d843-7552-43cb-9fcf-f19a1133c2e2/43475735-1?io=transform:extend,width:800,height:800",
+      "imageFile": "assets/products/kmart-check-cushion.jpg",
+      "texture": "cotton",
+      "colourName": "Beige check",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Search retrieval on 29 Oct 2026 showed the name and $7 price. Direct request to kmart.com.au from this environment returned 403. The image URL on assets.kmart.com.au returned 200."
+    },
+    {
+      "id": "bbnt-sorano-natural",
+      "name": "Sorano Linen Blend Cushion - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included. Morgan & Finch.",
+      "url": "https://www.bedbathntable.com.au/sorano-natural-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Natural_SI.jpg",
+      "imageFile": "assets/products/bbnt-sorano-natural.jpg",
+      "texture": "linen",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-everett-natural",
+      "name": "Everett Colour Block Linen Cushion - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "Insert included.",
+      "url": "https://www.bedbathntable.com.au/everett-natural-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Everett_Natural_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-everett-natural.jpg",
+      "texture": "linen",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-linnea-ivory",
+      "name": "Linnea Cushion - Ivory",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 39.95,
+      "priceIsFrom": false,
+      "priceNote": "Ivory ground with a coral and blue branch embroidery, shown on the Linnea bed. Offer price on the page is $39.95. The structured data also includes a unit price of $29.96.",
+      "url": "https://www.bedbathntable.com.au/linnea-cushion-ivory",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Linnea_Cushion_2.jpg",
+      "imageFile": "assets/products/bbnt-linnea-ivory.jpg",
+      "texture": "cotton",
+      "colourName": "Ivory with floral embroidery",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-sorano-smoke",
+      "name": "Sorano Linen Blend Cushion - Smoke Blue",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/sorano-smoke-blue-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Smoke_Blue_SI.jpg",
+      "imageFile": "assets/products/bbnt-sorano-smoke.jpg",
+      "texture": "linen",
+      "colourName": "Smoke blue",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-flinders-smoke",
+      "name": "Flinders Linen Blend Cushion - Smoke Blue",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/flinders-smoke-blue-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Flinders_SmokeBlue_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-flinders-smoke.jpg",
+      "texture": "linen",
+      "colourName": "Smoke blue",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-margot-sage",
+      "name": "Margot Velvet Cushion - Sage",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "Velvet. Insert included.",
+      "url": "https://www.bedbathntable.com.au/homewares/cushions/margot-sage-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushions-Margot_Velvet-Sage_SI.jpg",
+      "imageFile": "assets/products/bbnt-margot-sage.jpg",
+      "texture": "velvet",
+      "colourName": "Sage",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-sorano-olive",
+      "name": "Sorano Linen Blend Cushion - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/sorano-olive-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Olive_SI.jpg",
+      "imageFile": "assets/products/bbnt-sorano-olive.jpg",
+      "texture": "linen",
+      "colourName": "Olive",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-flinders-olive",
+      "name": "Flinders Linen Blend Cushion - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "50 x 50cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/flinders-olive-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Flinders_Olive_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-flinders-olive.jpg",
+      "texture": "linen",
+      "colourName": "Olive",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "tw-organica",
+      "name": "Linen Organica Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 139,
+      "priceIsFrom": true,
+      "priceNote": "From $139. The page also shows a range of $139\u2013$219 across 150 x 220cm and 190 x 280cm. The $139 figure is the structured-data offer, matching the low end.",
+      "url": "https://www.templeandwebster.com.au/Linen-Organica-Jute-Rug-PHRE2378.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/27675/18651694/4/Linen%2BOrganica%2BJute%2BRug.jpg",
+      "imageFile": "assets/products/tw-organica.jpg",
+      "texture": "jute",
+      "colourName": "Beige",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $139, in stock). Direct HTTP to templeandwebster.com.au from this environment returned 403. Image host img.zcdn.com.au returned 200."
+    },
+    {
+      "id": "adairs-campus",
+      "name": "Campus Natural Handwoven Jute Indoor Runner",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "rug",
+      "priceAud": 169.99,
+      "priceIsFrom": false,
+      "priceNote": "Runner, 80cm wide including fringe x 180cm. Page shows $169.99, $118.99 and $113.04 beside an RRP / Linen Lovers label. Totals use $169.99, the first figure. This is a runner, so the room preview maps its weave into the rug area rather than showing a runner shape.",
+      "url": "https://www.adairs.com.au/homewares/floor-rugs-mats/adairs/campus-natural-handwoven-jute-indoor-runner/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/floor-rugs--mats/201698_02.jpg",
+      "imageFile": "assets/products/adairs-campus.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page text and image URL retrieved 29 Oct 2026. Direct HTTP to adairs.com.au from this environment returned 403. The image was saved via a public image proxy because the Adairs host blocked this environment."
+    },
+    {
+      "id": "tw-jairus",
+      "name": "Bleached Ivory Jairus Hand-Knotted Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 699,
+      "priceIsFrom": true,
+      "priceNote": "From $699. The page shows a size range and a higher was-price. The $699 figure is the structured-data offer, matching the low end (4 payments of $174.75).",
+      "url": "https://www.templeandwebster.com.au/Bleached-Ivory-Jairus-Hand-Knotted-Jute-Rug-RUGL1185.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39103/20488105/4/Bleached%2BIvory%2BJairus%2BHand-Knotted%2BJute%2BRug.jpg",
+      "imageFile": "assets/products/tw-jairus.jpg",
+      "texture": "jute",
+      "colourName": "Bleached ivory",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $699). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-falcon",
+      "name": "Beige Falcon Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 127,
+      "priceIsFrom": true,
+      "priceNote": "From $127. The page shows $127\u2013$554 across sizes from 150 x 80cm to 280 x 190cm. The $127 figure is the structured-data offer.",
+      "url": "https://www.templeandwebster.com.au/Beige-Falcon-Jute-Rug-RGCL1124.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39209/20177818/4/Beige%2BFalcon%2BJute%2BRug.jpg",
+      "imageFile": "assets/products/tw-falcon.jpg",
+      "texture": "jute",
+      "colourName": "Beige with a blue fleck",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $127). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-columbia",
+      "name": "Natural Columbia Hand-Woven Jute Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 139,
+      "priceIsFrom": true,
+      "priceNote": "From $139. The page shows $139\u2013$387 across 160 x 110cm, 230 x 160cm and 280 x 190cm. The $139 figure is the structured-data offer.",
+      "url": "https://www.templeandwebster.com.au/Natural-Columbia-Hand-Woven-Jute-Rug-VWRU2119.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/38584/20208497/4/Natural-Columbia-Hand-Woven-Jute-Rug.jpg",
+      "imageFile": "assets/products/tw-columbia.jpg",
+      "texture": "jute",
+      "colourName": "Natural with a cream lattice",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $139). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-mikey",
+      "name": "Beige Mikey Jute Round Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 199,
+      "priceIsFrom": true,
+      "priceNote": "From $199. Round, sizes from 120cm to 240cm, page range $199\u2013$577. The $199 figure is the structured-data offer. The room preview maps the weave into the rug area.",
+      "url": "https://www.templeandwebster.com.au/Beige-Mikey-Jute-Round-Rug-AUIN1042.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39238/19721788/4/Beige%2BMikey%2BJute%2BRound%2BRug.jpg",
+      "imageFile": "assets/products/tw-mikey.jpg",
+      "texture": "jute",
+      "colourName": "Beige",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $199). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "tw-alba",
+      "name": "Alba Jute Round Rug",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "rug",
+      "priceAud": 99.95,
+      "priceIsFrom": true,
+      "priceNote": "From $99.95 in Natural. Round, 120\u2013240cm. Page range $99.95\u2013$249. The room preview maps the weave into the rug area.",
+      "url": "https://www.templeandwebster.com.au/Alba-Jute-Round-Rug-TMPL3192.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/38080/21012398/4/Natural%2BAlba%2BHand-Woven%2BJute%2BRound%2BRug.jpg",
+      "imageFile": "assets/products/tw-alba.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $99.95). Direct HTTP to the site returned 403 from this environment. Image host returned 200."
+    },
+    {
+      "id": "kmart-indi-rug",
+      "name": "Indi Jute Rug - Brown, Large",
+      "store": "Kmart",
+      "storeId": "kmart",
+      "category": "rug",
+      "priceAud": 85,
+      "priceIsFrom": false,
+      "priceNote": "235 x 160cm. Rectangular jute. Underlay sold separately.",
+      "url": "https://www.kmart.com.au/product/indi-jute-rug-brown-large-235cm-x-160cm-43733415/",
+      "imageUrl": "",
+      "imageFile": "",
+      "texture": "jute",
+      "colourName": "Brown",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Search retrieval on 29 Oct 2026 showed the name and $85 price. Direct HTTP to kmart.com.au returned 403. A product image URL could not be verified, so the card has no photo and the room preview is left unchanged.",
+      "imageUnverified": true
+    },
+    {
+      "id": "kmart-round-jute",
+      "name": "Jute Rug - Natural, Round - 180cm",
+      "store": "Kmart",
+      "storeId": "kmart",
+      "category": "rug",
+      "priceAud": 42,
+      "priceIsFrom": false,
+      "priceNote": "1.8m round braided jute. Excluded from free delivery.",
+      "url": "https://www.kmart.com.au/product/round-jute-rug-natural-180cm-42375609/",
+      "imageUrl": "",
+      "imageFile": "",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Search retrieval on 29 Oct 2026 showed the name and $42 price. Direct HTTP returned 403 and no image URL could be verified, so the card has no photo and the room preview is left unchanged.",
+      "imageUnverified": true
+    },
+    {
+      "id": "bbnt-millen-natural",
+      "name": "Millen Chunky Knit Throw - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm. Morgan & Finch.",
+      "url": "https://www.bedbathntable.com.au/millen-natural-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Millen-Chunky-Knit-Throw_Natural_26900701_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-millen-natural.jpg",
+      "texture": "knit",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price taken from JSON-LD on 29 Oct 2026. Image URL taken from the same payload; confirm the file downloads in scripts/build_overlays.py."
+    },
+    {
+      "id": "adairs-leiden-throw",
+      "name": "Leiden Natural Boucle Throw",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "throw",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Page shows $99.99 and $89.99. The category listing calls $89.99 the Linen Lovers price. Totals use $99.99.",
+      "url": "https://www.adairs.com.au/homewares/throws/adairs/leiden-natural-boucle-throw/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2023_images/homewares/throws--blankets/56211_natural_01.jpg",
+      "imageFile": "assets/products/adairs-leiden-throw.jpg",
+      "texture": "boucle",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page text and image URL retrieved 29 Oct 2026. Direct HTTP to adairs.com.au returned 403. Image saved via a public image proxy."
+    },
+    {
+      "id": "adairs-belgian-throw",
+      "name": "Belgian Vintage Wash Linen Throw - Linen",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "throw",
+      "priceAud": 199.99,
+      "priceIsFrom": false,
+      "priceNote": "Page shows RRP $199.99 and $179.99 beside a Linen Lovers label. Totals use $199.99.",
+      "url": "https://www.adairs.com.au/homewares/throws/adairs/belgian-vintage-wash-linen-throw-linen/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2025_images/homewares/throws--blankets/60922_linen_01.jpg",
+      "imageFile": "assets/products/adairs-belgian-throw.jpg",
+      "texture": "linen",
+      "colourName": "Linen",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Product page text and image URL retrieved 29 Oct 2026. Direct HTTP to adairs.com.au returned 403. Image saved via a public image proxy."
+    },
+    {
+      "id": "bbnt-cambridge-cream",
+      "name": "Cambridge Throw - Cream",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/homewares/throws/cambridge-cream-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Throws-Cambridge_Cream_SI.jpg",
+      "imageFile": "assets/products/bbnt-cambridge-cream.jpg",
+      "texture": "cotton",
+      "colourName": "Cream",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-josie-blue",
+      "name": "Josie Striped Tassel Throw - Soft Blue",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm.",
+      "url": "https://www.bedbathntable.com.au/josie-soft-blue-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Josie-Throw_Soft-Blue_26937103_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-josie-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Soft blue",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-moss-natural",
+      "name": "Moss Throw - Natural",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 129.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/homewares/throws/moss-natural-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F-Moss-Border-Throw-Natural-18445505.jpg",
+      "imageFile": "assets/products/bbnt-moss-natural.jpg",
+      "texture": "weave",
+      "colourName": "Natural",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-millen-mushroom",
+      "name": "Millen Chunky Knit Throw - Mushroom",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm.",
+      "url": "https://www.bedbathntable.com.au/millen-mushroom-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Millen-Chunky-Knit-Throw_Mushroom_26900703_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-millen-mushroom.jpg",
+      "texture": "knit",
+      "colourName": "Mushroom",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-chunky-sage",
+      "name": "Chunky Tassel Throw - Pale Sage",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/chunky-pale-sage-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Throws-Chunky_Tassel_Pale-Sage_SI.jpg",
+      "imageFile": "assets/products/bbnt-chunky-sage.jpg",
+      "texture": "knit",
+      "colourName": "Pale sage",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-josie-olive",
+      "name": "Josie Striped Tassel Throw - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "127 x 152cm. Page also showed a higher was-price on a related colour in search; this URL's JSON-LD price is $89.95.",
+      "url": "https://www.bedbathntable.com.au/josie-olive-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Josie-Throw_Olive_26937104_SI_1.jpg",
+      "imageFile": "assets/products/bbnt-josie-olive.jpg",
+      "texture": "cotton",
+      "colourName": "Olive",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Product page returned HTTP 200. Price and image taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-sahara",
+      "name": "Sahara Framed Linen Wall Art",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "Linen / white. About 60 x 60cm. The room overlay uses the artwork from this photo. The card shows the full product photo.",
+      "url": "https://www.bedbathntable.com.au/sahara-framed-linen-wall-art-linen-white-25891601",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Summer_S24-25_LS_Studio_Decorator_Framed_Canvas_Sahara_SI.jpg",
+      "imageFile": "assets/products/bbnt-sahara.jpg",
+      "texture": "canvas",
+      "colourName": "Linen and white",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $69.95. The image path above is the filename pattern used by sibling canvases; build_overlays.py records the real download status.",
+      "placementCrop": [
+        0.33,
+        0.05,
+        0.66,
+        0.38
+      ]
+    },
+    {
+      "id": "bbnt-cotton-cloud",
+      "name": "Cotton Cloud Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "",
+      "url": "https://www.bedbathntable.com.au/cotton-cloud-framed-canvas-27358601",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_S26-27_Cotton-Cloud-Framed-Canvas_White-Black_27358601_SI.jpg",
+      "imageFile": "assets/products/bbnt-cotton-cloud.jpg",
+      "texture": "canvas",
+      "colourName": "White and black",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $89.95. Image filename is completed from the partial path in that payload; build_overlays.py records whether it downloaded."
+    },
+    {
+      "id": "tw-mineral",
+      "name": "Organic Mineral Flow II Canvas Wall Art",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "wall-art",
+      "priceAud": 217,
+      "priceIsFrom": true,
+      "priceNote": "From $217. Sizes and frames run up to $514 on the page. The $217 figure is the structured-data offer. Warm abstract with a thin green line, used as the 10% accent.",
+      "url": "https://www.templeandwebster.com.au/Organic-Mineral-Flow-II-Canvas-Wall-Art-JBEN1869.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/39142/21101281/4/Organic%2BMineral%2BFlow%2BII%2BCanvas%2BWall%2BArt.jpg",
+      "imageFile": "assets/products/tw-mineral.jpg",
+      "texture": "canvas",
+      "colourName": "Sand, clay and a green line",
+      "placementCrop": [
+        0,
+        0,
+        1,
+        0.42
+      ],
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "Page content and JSON-LD retrieved 29 Oct 2026 (offer $217). Direct HTTP to the site returned 403. Image host returned 200. The room overlay uses the artwork at the top of the lifestyle photo; the card shows the full product photo."
+    },
+    {
+      "id": "bbnt-carolina",
+      "name": "Carolina Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "Light blue. The room overlay uses the artwork from this photo. The card shows the full product photo.",
+      "url": "https://www.bedbathntable.com.au/carolina-framed-canvas-light-blue-multi-25890701",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Summer_S24-25_LS_Studio_Decorator_Framed_Canvas_Carolina_SI.jpg",
+      "imageFile": "assets/products/bbnt-carolina.jpg",
+      "texture": "canvas",
+      "colourName": "Light blue",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price $69.95 and image URL taken from JSON-LD on 29 Oct 2026.",
+      "placementCrop": [
+        0.33,
+        0.06,
+        0.66,
+        0.54
+      ]
+    },
+    {
+      "id": "bbnt-blooms",
+      "name": "Blooms Framed Canvas - Blue/White",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 69.95,
+      "priceIsFrom": false,
+      "priceNote": "Same price as Carolina. It is the Better pick because the picture is a closer botanical, not because it costs more.",
+      "url": "https://www.bedbathntable.com.au/blooms-framed-canvas-blue-white-25891501",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Blooms-Framed-Canvas_Blue-White_25891501_SI.jpg",
+      "imageFile": "assets/products/bbnt-blooms.jpg",
+      "texture": "canvas",
+      "colourName": "Blue and white",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price $69.95 and image URL taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-gold-magnolia",
+      "name": "Gold Magnolia Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 99.95,
+      "priceIsFrom": false,
+      "priceNote": "White and gold. The room overlay uses the artwork from this photo. The card shows the full product photo.",
+      "url": "https://www.bedbathntable.com.au/gold-magnolia-framed-canvas-white-gold-26646201",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Summer_S25-26_LS_Decor_Gold-Magnolia-Framed-Canvas.jpg",
+      "imageFile": "assets/products/bbnt-gold-magnolia.jpg",
+      "texture": "canvas",
+      "colourName": "White and gold",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $99.95. Image filename is completed from the partial path; build_overlays.py records the download.",
+      "placementCrop": [
+        0.231,
+        0.115,
+        0.765,
+        0.9
+      ]
+    },
+    {
+      "id": "bbnt-flower-bloom",
+      "name": "Flower Bloom Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 79.95,
+      "priceIsFrom": false,
+      "priceNote": "Green and white.",
+      "url": "https://www.bedbathntable.com.au/flower-bloom-framed-canvas-green-white-26173101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_Flower-Bloom-Framed-Canvas_Green-White_26173101_SI.jpg",
+      "imageFile": "assets/products/bbnt-flower-bloom.jpg",
+      "texture": "canvas",
+      "colourName": "Green and white",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "Product page returned HTTP 200. Price $79.95 and image URL taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-chrysanthemum",
+      "name": "Chrysanthemum Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "Pink multi. This is the floral 10% in Olive and bloom.",
+      "url": "https://www.bedbathntable.com.au/chrysanthemum-framed-canvas-27358701",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_S26-27_Chrysanthemum-Framed-Canvas_Pink-Multi_27358701_SI.jpg",
+      "imageFile": "assets/products/bbnt-chrysanthemum.jpg",
+      "texture": "canvas",
+      "colourName": "Pink",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "Product page returned HTTP 200. Price $89.95 and image URL taken from JSON-LD on 29 Oct 2026."
+    },
+    {
+      "id": "bbnt-honeysuckle",
+      "name": "Native Honeysuckle Framed Canvas",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "wall-art",
+      "priceAud": 99.95,
+      "priceIsFrom": false,
+      "priceNote": "The file name on the product image includes Pink multi.",
+      "url": "https://www.bedbathntable.com.au/native-honeysuckle-framed-canvas-27358301",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_S26-27_Native-Honeysuckle-Framed-Canvas_Pink-Multi_27358301_SI.jpg",
+      "imageFile": "assets/products/bbnt-honeysuckle.jpg",
+      "texture": "canvas",
+      "colourName": "Pink botanical",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "Product page returned HTTP 200 and the JSON-LD price was $99.95. Image filename is completed from the partial path; build_overlays.py records the download."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "recommendedId": "calm-scandi",
+  "styles": [
+    {
+      "id": "calm-scandi",
+      "name": "Calm Scandi",
+      "reason": "Calm Scandi with warm neutrals, because of the pale walls, grey sofa and warm oak tables.",
+      "harmony": "analogous",
+      "undertone": "warm-bridge",
+      "hueShift": 14,
+      "accentName": "Oat",
+      "textures": ["cotton", "linen", "jute", "boucle", "canvas"]
+    },
+    {
+      "id": "coastal-linen",
+      "name": "Coastal linen",
+      "reason": "Coastal linen, smoke blue kept grey, because the daylight is cool and the oak still needs warmth.",
+      "harmony": "analogous",
+      "undertone": "cool-greyed",
+      "hueShift": 188,
+      "accentName": "Smoke blue",
+      "textures": ["linen", "cotton", "jute", "knit"]
+    },
+    {
+      "id": "olive-bloom",
+      "name": "Olive and bloom",
+      "reason": "Olive and bloom, sage textiles and a little flower art, because the grey sofa can hold green beside the oak.",
+      "harmony": "analogous",
+      "undertone": "warm-bridge",
+      "hueShift": 78,
+      "accentName": "Sage",
+      "textures": ["velvet", "linen", "jute", "knit"]
+    }
+  ]
+}
