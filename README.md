@@ -72,8 +72,8 @@ Checked 29 Oct 2026.
 - Bed Bath N' Table pages returned HTTP 200. Price and image come from JSON-LD on the page. `build_overlays.py` asks the live page again before saving a BBNT image.
 - Temple & Webster pages were readable, including JSON-LD, but a direct HTTP request from this environment returned 403. Images were downloaded from `img.zcdn.com.au`.
 - Adairs pages were readable, but `adairs.com.au` returned 403. Product images were fetched through `images.weserv.nl` because the Adairs host blocked this environment.
-- Kmart pages returned 403 or 429 from this environment. The beige check cushion is included because the product page content showed the name and the $7 price, and the image URL on `assets.kmart.com.au` returned 200. Two Kmart rugs (Indi, $85, and the round jute, $42) are in the Olive and bloom style with no image. Their pages were seen with those prices, and the photos could not be verified, so they are not placed in the room.
-- Guessed Kmart image URLs were not used. A guessed URL returned a fallback file rather than the product.
+- Kmart product pages returned 403 or 429 from this environment. The image host `assets.kmart.com.au` returned HTTP 200, and the live catalogue search (`ac.cnstrc.com`, the key the Kmart site uses) returned the name, price and image URL. Olive and bloom uses the Indi jute rug ($85, 235 x 160cm) and the Flecked sage round rug ($69, 180cm). Calm Scandi’s Good cushion is the 50cm woven check cover in beige ($7). An earlier round jute at $42 (SKU 42375609) and an earlier check cover (SKU 43475735) no longer appear in that search.
+- Guessed Kmart image URLs were not used. A guessed URL returned a fallback file rather than the product. The image ids here come from the catalogue search, and each file was opened and checked.
 
 ## Deploy
 

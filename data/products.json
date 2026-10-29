@@ -5,22 +5,22 @@
   "products": [
     {
       "id": "kmart-check-cushion",
-      "name": "50cm Check Cotton Cushion Cover - Beige",
+      "name": "50cm Woven Check Cotton Cushion Cover - Beige",
       "store": "Kmart",
       "storeId": "kmart",
       "category": "cushions",
       "priceAud": 7,
       "priceIsFrom": false,
-      "priceNote": "Cover only. A 50cm insert is sold separately.",
-      "url": "https://www.kmart.com.au/product/50cm-check-cotton-cushion-cover-beige-43475735/",
-      "imageUrl": "https://assets.kmart.com.au/transform/d5f4d843-7552-43cb-9fcf-f19a1133c2e2/43475735-1?io=transform:extend,width:800,height:800",
+      "priceNote": "Cover only. A 50cm insert is sold separately. The earlier check cover SKU 43475735 no longer appears in Kmart search. This is the current beige check cover at the same $7.",
+      "url": "https://www.kmart.com.au/product/50cm-woven-check-cotton-cushion-cover-beige-73633518/",
+      "imageUrl": "https://assets.kmart.com.au/transform/36c5f2d2-a46b-4422-85f1-5210978729b9/73633518-1?io=transform:extend,width:1100,height:1375&quality=90",
       "imageFile": "assets/products/kmart-check-cushion.jpg",
       "texture": "cotton",
       "colourName": "Beige check",
       "styles": {
         "calm-scandi": "good"
       },
-      "verification": "Search retrieval on 29 Oct 2026 showed the name and $7 price. Direct request to kmart.com.au from this environment returned 403. The image URL on assets.kmart.com.au returned 200."
+      "verification": "Kmart catalogue search on 29 Oct 2026 returned this name, $7, and this assets.kmart.com.au image. The image URL returned HTTP 200 and the file is a beige check cushion. Direct HTTP to kmart.com.au returned 403. SKU 43475735 returned no search results."
     },
     {
       "id": "bbnt-sorano-natural",
@@ -309,7 +309,7 @@
     },
     {
       "id": "kmart-indi-rug",
-      "name": "Indi Jute Rug - Brown, Large",
+      "name": "Indi Jute Rug - Brown, Large - 235cm x 160cm",
       "store": "Kmart",
       "storeId": "kmart",
       "category": "rug",
@@ -317,35 +317,45 @@
       "priceIsFrom": false,
       "priceNote": "235 x 160cm. Rectangular jute. Underlay sold separately.",
       "url": "https://www.kmart.com.au/product/indi-jute-rug-brown-large-235cm-x-160cm-43733415/",
-      "imageUrl": "",
-      "imageFile": "",
+      "imageUrl": "https://assets.kmart.com.au/transform/7d1f7fe5-04d6-43a6-81ba-cc667bacb621/43733415-1?io=transform:extend,width:1100,height:1375&quality=90",
+      "imageFile": "assets/products/kmart-indi-rug.jpg",
       "texture": "jute",
       "colourName": "Brown",
       "styles": {
         "olive-bloom": "better"
       },
-      "verification": "Search retrieval on 29 Oct 2026 showed the name and $85 price. Direct HTTP to kmart.com.au returned 403. A product image URL could not be verified, so the card has no photo and the room preview is left unchanged.",
-      "imageUnverified": true
+      "verification": "Confirmed in Kmart catalogue search on 29 Oct 2026: name, $85, and this assets.kmart.com.au image. The image URL returned HTTP 200 and the file is a brown jute rug. Direct HTTP to the product page returned 403.",
+      "placementCrop": [
+        0.12,
+        0.52,
+        0.55,
+        0.82
+      ]
     },
     {
-      "id": "kmart-round-jute",
-      "name": "Jute Rug - Natural, Round - 180cm",
+      "id": "kmart-flecked-sage",
+      "name": "Flecked Rug - Sage, Round - 180cm",
       "store": "Kmart",
       "storeId": "kmart",
       "category": "rug",
-      "priceAud": 42,
+      "priceAud": 69,
       "priceIsFrom": false,
-      "priceNote": "1.8m round braided jute. Excluded from free delivery.",
-      "url": "https://www.kmart.com.au/product/round-jute-rug-natural-180cm-42375609/",
-      "imageUrl": "",
-      "imageFile": "",
-      "texture": "jute",
-      "colourName": "Natural",
+      "priceNote": "180cm diameter, sage. Polyester pile. Excluded from free delivery. Replaces a round jute rug at $42 (SKU 42375609) that no longer appears in Kmart search. The room preview maps the weave into the rug area.",
+      "url": "https://www.kmart.com.au/product/flecked-rug-sage-round-180cm-43670062/",
+      "imageUrl": "https://assets.kmart.com.au/transform/593088c2-316a-477b-a86b-28055d126d38/43670062-1?io=transform:extend,width:1100,height:1375&quality=90",
+      "imageFile": "assets/products/kmart-flecked-sage.jpg",
+      "texture": "weave",
+      "colourName": "Sage",
       "styles": {
         "olive-bloom": "good"
       },
-      "verification": "Search retrieval on 29 Oct 2026 showed the name and $42 price. Direct HTTP returned 403 and no image URL could be verified, so the card has no photo and the room preview is left unchanged.",
-      "imageUnverified": true
+      "verification": "Kmart catalogue search on 29 Oct 2026 returned this name, $69, and this assets.kmart.com.au image. The image URL returned HTTP 200 and the file is a pale sage round rug. Direct HTTP to kmart.com.au returned 403.",
+      "placementCrop": [
+        0.32,
+        0.58,
+        0.72,
+        0.82
+      ]
     },
     {
       "id": "bbnt-millen-natural",

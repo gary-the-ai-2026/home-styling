@@ -80,7 +80,7 @@ def download_image(product: dict) -> Image.Image | None:
             path = ROOT / product["imageFile"]
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(data)
-            image = Image.open(path).convert("RGB")
+            image = crop_extend_bars(Image.open(path).convert("RGB"))
             image.thumbnail((1200, 1200))
             image.save(path, quality=82)
             print("  image", product["id"], image.size)
@@ -89,6 +89,25 @@ def download_image(product: dict) -> Image.Image | None:
             last = error
     print("  image fail", product["id"], last)
     return None
+
+
+def crop_extend_bars(image: Image.Image) -> Image.Image:
+    """Drop the flat green bands Kmart's extend transform adds above and below a photo."""
+    array = np.array(image.convert("RGB"))
+    bar = np.array([71, 112, 76])
+
+    def is_bar(row: np.ndarray) -> bool:
+        return float(np.abs(row.astype(int) - bar).sum(axis=1).mean()) < 12
+
+    top = 0
+    while top < array.shape[0] - 10 and is_bar(array[top]):
+        top += 1
+    bottom = array.shape[0]
+    while bottom > top + 10 and is_bar(array[bottom - 1]):
+        bottom -= 1
+    if top == 0 and bottom == array.shape[0]:
+        return image
+    return image.crop((0, top, image.width, bottom))
 
 
 def polygons_for(region: dict) -> list:

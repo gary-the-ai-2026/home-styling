@@ -116,8 +116,20 @@
       "width": 1326,
       "height": 635
     },
-    "kmart-indi-rug": null,
-    "kmart-round-jute": null,
+    "kmart-indi-rug": {
+      "file": "assets/overlays/kmart-indi-rug.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "kmart-flecked-sage": {
+      "file": "assets/overlays/kmart-flecked-sage.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
     "bbnt-millen-natural": {
       "file": "assets/overlays/bbnt-millen-natural.png",
       "x": 740,
@@ -308,6 +320,14 @@
     },
     {
       "id": "tw-alba",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "kmart-indi-rug",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "kmart-flecked-sage",
       "outsidePixelsChanged": 0
     },
     {
