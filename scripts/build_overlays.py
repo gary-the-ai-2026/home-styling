@@ -112,7 +112,8 @@ def crop_extend_bars(image: Image.Image) -> Image.Image:
 
 def polygons_for(region: dict) -> list:
     polys = list(region.get("polygons") or [])
-    if region.get("quad"):
+    # A quad on a masked region is the warp plane only. The polygon is the clip.
+    if region.get("quad") and not polys:
         polys.append(region["quad"])
     return polys
 
@@ -222,6 +223,79 @@ def paste_shaded(base: Image.Image, mask: Image.Image, fabric: Image.Image, regi
     return out.crop((x0, y0, x1, y1)), (x0, y0)
 
 
+def warp_full(fabric: Image.Image, quad, size) -> Image.Image:
+    """Perspective-map fabric onto a quad and return a full-canvas RGBA image."""
+    src_w, src_h = fabric.size
+    source = [(0, 0), (src_w, 0), (src_w, src_h), (0, src_h)]
+    matrix = []
+    vector = []
+    for (sx, sy), (dx, dy) in zip(source, quad):
+        matrix.append([dx, dy, 1, 0, 0, 0, -sx * dx, -sx * dy])
+        matrix.append([0, 0, 0, dx, dy, 1, -sy * dx, -sy * dy])
+        vector.extend([sx, sy])
+    coeffs = np.linalg.solve(np.array(matrix, dtype=np.float64), np.array(vector, dtype=np.float64))
+    warped = fabric.convert("RGBA").transform(size, Image.Transform.PERSPECTIVE, coeffs.tolist(), Image.Resampling.BICUBIC)
+    mask = Image.new("L", size, 0)
+    ImageDraw.Draw(mask).polygon([tuple(point) for point in quad], fill=255)
+    warped.putalpha(mask)
+    return warped
+
+
+def crop_alpha(image: Image.Image):
+    alpha = np.array(image.split()[-1])
+    ys, xs = np.where(alpha > 0)
+    if len(xs) == 0:
+        return Image.new("RGBA", (1, 1), (0, 0, 0, 0)), (0, 0)
+    box = (int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1)
+    return image.crop(box), (box[0], box[1])
+
+
+def shade_rgba(image: Image.Image, base: Image.Image, mask: Image.Image, low: float, high: float):
+    alpha = np.array(mask)
+    factor = shade_factor(base, alpha, low, high)[:, :, None]
+    coloured = np.clip(np.array(image.convert("RGB")).astype(np.float32) * factor, 0, 255).astype(np.uint8)
+    out = Image.fromarray(coloured).convert("RGBA")
+    src_alpha = np.array(image.split()[-1])
+    out.putalpha(Image.fromarray(np.minimum(src_alpha, alpha)))
+    return crop_alpha(out)
+
+
+def table_holes(mask: Image.Image, base: Image.Image, polygon) -> Image.Image:
+    """Keep the coffee table. Dark gaps between the slats stay in the rug mask."""
+    table = Image.new("L", mask.size, 0)
+    ImageDraw.Draw(table).polygon([tuple(point) for point in polygon], fill=255)
+    table_px = np.array(table) > 0
+    arr = np.array(base.convert("RGB"))
+    lum = arr.mean(axis=2)
+    red = arr[:, :, 0].astype(int)
+    green = arr[:, :, 1].astype(int)
+    blue = arr[:, :, 2].astype(int)
+    gap = (lum < 56) & (np.abs(red - blue) < 36) & (np.abs(red - green) < 28)
+    solid = table_px & ~gap
+    out = np.array(mask)
+    out[solid] = 0
+    return Image.fromarray(out)
+
+
+def region_for(product: dict, room: dict) -> dict:
+    region = room["regions"][product["category"]]
+    slot = product.get("slot")
+    if slot:
+        return region["slots"][slot]
+    return region
+
+
+def mask_for(base: Image.Image, region: dict) -> Image.Image:
+    if region.get("polygons"):
+        mask = build_mask(base.size, region)
+    else:
+        mask = Image.new("L", base.size, 0)
+        ImageDraw.Draw(mask).polygon([tuple(point) for point in region["quad"]], fill=255)
+    if region.get("table"):
+        mask = table_holes(mask, base, region["table"])
+    return mask
+
+
 def warp_into_quad(fabric: Image.Image, quad, size) -> Image.Image:
     """Map the fabric onto the wall-art quad. PIL perspective maps output -> source."""
     src_w, src_h = fabric.size
@@ -244,33 +318,75 @@ def warp_into_quad(fabric: Image.Image, quad, size) -> Image.Image:
     return warped.crop(box), (box[0], box[1])
 
 
+def place_product(product: dict, image: Image.Image, room: dict, base: Image.Image):
+    region = region_for(product, room)
+    josh = product.get("roomId") == "josh-lounge"
+    if josh and region.get("quad"):
+        source = fabric_source(image, product)
+        full = warp_full(source, region["quad"], base.size)
+        mask = mask_for(base, region)
+        # Soften the cloth edge inside the mask so the quad does not read as a cut-out.
+        # Alpha stays zero outside the mask, which keeps the pixel check at zero.
+        if product["category"] in ("cushions", "throw"):
+            blurred = mask.filter(ImageFilter.GaussianBlur(2.4))
+            mask = Image.fromarray(np.minimum(np.array(blurred), np.array(mask)))
+        if product["category"] == "wall-art":
+            low, high = (0.9, 1.05)
+        elif product["category"] == "rug":
+            low, high = (0.72, 1.08)
+        else:
+            low, high = (0.68, 1.06)
+        return shade_rgba(full, base, mask, low, high)
+    if product["category"] == "wall-art":
+        source = fabric_source(image, product)
+        return warp_into_quad(source, region["quad"], base.size)
+    mask = build_mask(base.size, region)
+    source = fabric_source(image, product)
+    low, high = (0.88, 1.06) if product["category"] == "rug" else (0.82, 1.08)
+    return paste_shaded(base, mask, source, region, low, high)
+
+
+def check_product(product: dict, meta: dict, room: dict, base: Image.Image) -> int:
+    region = region_for(product, room)
+    if product.get("roomId") == "josh-lounge":
+        mask = mask_for(base, region)
+    elif product["category"] == "wall-art":
+        mask = Image.new("L", base.size, 0)
+        ImageDraw.Draw(mask).polygon([tuple(point) for point in region["quad"]], fill=255)
+    else:
+        mask = build_mask(base.size, region)
+    full = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    layer = Image.open(ROOT / meta["file"]).convert("RGBA")
+    full.paste(layer, (meta["x"], meta["y"]), layer)
+    composed = Image.alpha_composite(base.convert("RGBA"), full)
+    drift = np.abs(np.array(base).astype(int) - np.array(composed.convert("RGB")).astype(int)).sum(axis=2)
+    outside = np.array(mask) == 0
+    return int((drift[outside] > 0).sum())
+
+
 def main() -> None:
-    room = json.loads((ROOT / "data/room.json").read_text())
+    index = json.loads((ROOT / "data/rooms.json").read_text())
+    rooms = {item["id"]: json.loads((ROOT / item["file"]).read_text()) for item in index["rooms"]}
     catalogue = json.loads((ROOT / "data/products.json").read_text())
-    base = Image.open(ROOT / room["image"]).convert("RGB")
-    overlays = {}
+    bases = {room_id: Image.open(ROOT / room["image"]).convert("RGB") for room_id, room in rooms.items()}
+    by_room = {room_id: {} for room_id in rooms}
     for product in catalogue["products"]:
         print(product["id"])
         if product.get("unused"):
             continue
+        room_id = product.get("roomId") or "stock-minh-pham-lounge"
+        room = rooms[room_id]
+        base = bases[room_id]
         image = download_image(product)
         if image is None:
-            overlays[product["id"]] = None
+            by_room[room_id][product["id"]] = None
             continue
-        region = room["regions"][product["category"]]
-        if product["category"] == "wall-art":
-            source = fabric_source(image, product)
-            layer, origin = warp_into_quad(source, region["quad"], base.size)
-        else:
-            mask = build_mask(base.size, region)
-            source = fabric_source(image, product)
-            low, high = (0.88, 1.06) if product["category"] == "rug" else (0.82, 1.08)
-            layer, origin = paste_shaded(base, mask, source, region, low, high)
+        layer, origin = place_product(product, image, room, base)
         rel = Path("assets/overlays") / f"{product['id']}.png"
         dest = ROOT / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         layer.save(dest, optimize=True)
-        overlays[product["id"]] = {
+        by_room[room_id][product["id"]] = {
             "file": rel.as_posix(),
             "x": origin[0],
             "y": origin[1],
@@ -279,44 +395,39 @@ def main() -> None:
         }
         print("  overlay", layer.size, "at", origin)
 
-    # Prove pixels outside every mask stay identical once composited.
-    report = []
-    for product in catalogue["products"]:
-        meta = overlays.get(product["id"])
-        if not meta:
-            continue
-        region = room["regions"][product["category"]]
-        mask = build_mask(base.size, region)
-        if product["category"] == "wall-art":
-            mask = Image.new("L", base.size, 0)
-            ImageDraw.Draw(mask).polygon([tuple(point) for point in region["quad"]], fill=255)
-        full = Image.new("RGBA", base.size, (0, 0, 0, 0))
-        layer = Image.open(ROOT / meta["file"]).convert("RGBA")
-        full.paste(layer, (meta["x"], meta["y"]), layer)
-        composed = Image.alpha_composite(base.convert("RGBA"), full)
-        base_px = np.array(base)
-        out_px = np.array(composed.convert("RGB"))
-        outside = np.array(mask) == 0
-        drift = np.abs(base_px.astype(int) - out_px.astype(int)).sum(axis=2)
-        changed = int((drift[outside] > 0).sum())
-        report.append({"id": product["id"], "outsidePixelsChanged": changed})
-        if changed:
-            print("  PIXEL DRIFT", product["id"], changed)
+    manifest_rooms = {}
+    bad = []
+    for room_id, room in rooms.items():
+        base = bases[room_id]
+        report = []
+        for product in catalogue["products"]:
+            if (product.get("roomId") or "stock-minh-pham-lounge") != room_id:
+                continue
+            meta = by_room[room_id].get(product["id"])
+            if not meta:
+                continue
+            changed = check_product(product, meta, room, base)
+            report.append({"id": product["id"], "outsidePixelsChanged": changed})
+            if changed:
+                print("  PIXEL DRIFT", product["id"], changed)
+                bad.append(product["id"])
+        manifest_rooms[room_id] = {
+            "base": room["image"],
+            "width": base.width,
+            "height": base.height,
+            "overlays": by_room[room_id],
+            "pixelCheck": report,
+        }
+        print(room_id, "overlays", sum(1 for value in by_room[room_id].values() if value), "drift", sum(1 for row in report if row["outsidePixelsChanged"]))
 
     manifest = {
         "checkedOn": catalogue["checkedOn"],
-        "base": room["image"],
-        "width": base.width,
-        "height": base.height,
-        "overlays": overlays,
-        "pixelCheck": report,
         "placement": "Product photos are placed inside a fixed mask. This is not a new photo of the room and not an AI illustration.",
+        "rooms": manifest_rooms,
     }
-    (ROOT / "data/overlays.json").write_text(json.dumps(manifest, indent=2))
-    # Refresh image URLs that were corrected from live BBNT pages.
+    (ROOT / "data/overlays.json").write_text(json.dumps(manifest, indent=2) + "\n")
     (ROOT / "data/products.json").write_text(json.dumps(catalogue, indent=2) + "\n")
-    bad = [row for row in report if row["outsidePixelsChanged"]]
-    print("overlays", sum(1 for value in overlays.values() if value), "drift", len(bad))
+    print("drift", len(bad))
 
 
 if __name__ == "__main__":

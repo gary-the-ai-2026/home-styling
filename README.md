@@ -1,6 +1,6 @@
 # Home styling
 
-A mobile-first prototype for Josh and Amy. It reads one lounge photo, recommends a style, and offers Good, Better and Best products from Kmart, Bed Bath N' Table, Adairs, Temple & Webster, and IKEA.
+A mobile-first prototype for Josh and Amy. It opens on Josh's lounge, in Warm earthy modern, and offers Good, Better and Best products from Kmart, Bed Bath N' Table, Adairs, Temple & Webster, and IKEA. A sample lounge stays available as the second room.
 
 Version one is a static site. The room reading, the palette and the product research are precomputed for the stock photo. The modules are separate so a later upload-and-search step can replace the data without rewriting the page.
 
@@ -24,6 +24,8 @@ The room photo is never regenerated. Four items sit on independent layers over o
 4. The page composites those PNGs in `js/compositor.js`. Order is rug, throw, cushions, wall art. Positions are percentages of the base, so the stack scales. A pixel whose mask is 0 is the original photo.
 
 Swiping the rug cycles rug options only. The cushion, throw and art layers stay where they are. Tapping a region scrolls to that carousel. The carousels use scroll-snap and stay in sync with the layers.
+
+Josh's lounge uses the same layering on `assets/room/josh.jpg` (1600 x 1200). Cushions in a tier are one set: three covers or cushions, placed on the left sofa back and the chaise lumbar. The rug mask keeps the walnut coffee table, including the slats, and lets the new rug show through the gaps. Wall art sits on the bare wall left of the dining window. Swipe order there is Good, then Better, then Best. The tier total adds every product in that tier. Good includes three $6 IKEA INNER pads.
 
 These overlays are the real product photo, placed in the mask. The caption on the page says so. They are not a new photo of this room and they are not an AI illustration. If a product photo could not be verified, that layer is left off and the card says so.
 

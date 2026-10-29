@@ -1,6 +1,10 @@
 {
   "id": "stock-minh-pham-lounge",
-  "title": "Lounge",
+  "title": "Sample lounge",
+  "swipe": "price",
+  "tierTotal": "cheapest",
+  "styleIds": ["calm-scandi", "coastal-linen", "olive-bloom"],
+  "recommendedStyleId": "calm-scandi",
   "image": "assets/room/base.jpg",
   "width": 1400,
   "height": 2100,

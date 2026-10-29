@@ -17,14 +17,26 @@ export const CATEGORIES = [
   { id: "wall-art", label: "Wall art" },
 ];
 
-export function optionsFor(products, styleId) {
+const SLOT_ORDER = { "left-back": 0, "left-front": 1, chaise: 2 };
+
+export function optionsFor(products, styleId, mode = "price") {
   const options = {};
   for (const category of CATEGORIES) {
     options[category.id] = products
       .filter((product) => product.category === category.id && product.styles?.[styleId])
-      .sort((a, b) => Number(a.priceAud) - Number(b.priceAud) || a.name.localeCompare(b.name));
+      .sort((a, b) => compareProducts(a, b, styleId, mode));
   }
   return options;
+}
+
+function compareProducts(a, b, styleId, mode) {
+  if (mode === "tier") {
+    const tier = TIERS.indexOf(a.styles[styleId]) - TIERS.indexOf(b.styles[styleId]);
+    if (tier) return tier;
+    const slot = (SLOT_ORDER[a.slot] ?? 0) - (SLOT_ORDER[b.slot] ?? 0);
+    if (slot) return slot;
+  }
+  return Number(a.priceAud) - Number(b.priceAud) || a.name.localeCompare(b.name);
 }
 
 export function tierProducts(options, styleId, tier) {
@@ -50,7 +62,7 @@ export function formatPrice(product) {
 
 export function sumProducts(products) {
   const items = products.filter(Boolean);
-  const sum = items.reduce((total, product) => total + Number(product.priceAud), 0);
+  const sum = Math.round(items.reduce((total, product) => total + Number(product.priceAud) + Number(product.innerPadAud || 0), 0) * 100) / 100;
   const from = items.some((product) => product.priceIsFrom);
   return { sum, from, items };
 }

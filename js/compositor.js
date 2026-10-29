@@ -15,27 +15,36 @@ export function layerOrder() {
   return LAYER_ORDER;
 }
 
-export function applyOverlays(stage, manifest, options, selection) {
+export function applyOverlays(stage, manifest, active) {
+  const stack = stage.querySelector("#layers");
   const baseWidth = manifest.width;
   const baseHeight = manifest.height;
+  const wanted = [];
   for (const categoryId of LAYER_ORDER) {
-    const layer = stage.querySelector(`[data-layer="${categoryId}"]`);
-    if (!layer) continue;
-    const product = (options[categoryId] || []).find((item) => item.id === selection[categoryId]);
-    const meta = product ? manifest.overlays[product.id] : null;
-    if (!meta) {
-      layer.hidden = true;
-      layer.removeAttribute("src");
-      continue;
+    for (const product of active[categoryId] || []) {
+      const meta = manifest.overlays?.[product.id];
+      if (meta) wanted.push({ id: product.id, meta });
     }
-    const next = meta.file;
+  }
+  const keep = new Set(wanted.map((item) => item.id));
+  for (const layer of [...stack.querySelectorAll(".layer")]) {
+    if (!keep.has(layer.dataset.product)) layer.remove();
+  }
+  for (const item of wanted) {
+    let layer = stack.querySelector(`[data-product="${item.id}"]`);
+    if (!layer) {
+      layer = document.createElement("img");
+      layer.className = "layer";
+      layer.alt = "";
+      layer.dataset.product = item.id;
+      stack.append(layer);
+    }
+    const next = item.meta.file;
     if (layer.getAttribute("src") !== next) layer.src = next;
-    layer.hidden = false;
-    layer.style.left = `${(meta.x / baseWidth) * 100}%`;
-    layer.style.top = `${(meta.y / baseHeight) * 100}%`;
-    layer.style.width = `${(meta.width / baseWidth) * 100}%`;
-    layer.style.height = `${(meta.height / baseHeight) * 100}%`;
-    layer.alt = "";
+    layer.style.left = `${(item.meta.x / baseWidth) * 100}%`;
+    layer.style.top = `${(item.meta.y / baseHeight) * 100}%`;
+    layer.style.width = `${(item.meta.width / baseWidth) * 100}%`;
+    layer.style.height = `${(item.meta.height / baseHeight) * 100}%`;
   }
 }
 
@@ -56,13 +65,24 @@ export function mountHits(svg, room) {
       const d = parts.map((poly) => `M ${poly.map((point) => point.join(" ")).join(" L ")} Z`).join(" ");
       group.append(svgEl("path", { d, "fill-rule": "evenodd" }));
     } else {
-      const polys = region.hit ? [region.hit] : region.polygons || (region.quad ? [region.quad] : []);
+      const polys = hitPolys(region);
       for (const poly of polys) {
         group.append(svgEl("polygon", { points: poly.map((point) => point.join(",")).join(" ") }));
       }
     }
     svg.append(group);
   }
+}
+
+function hitPolys(region) {
+  if (region.hit) return [region.hit];
+  if (region.slots) {
+    return Object.values(region.slots)
+      .map((slot) => slot.quad || slot.polygons?.[0])
+      .filter(Boolean);
+  }
+  if (region.polygons?.length) return region.polygons;
+  return region.quad ? [region.quad] : [];
 }
 
 function svgEl(name, attrs) {

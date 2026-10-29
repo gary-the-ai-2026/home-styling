@@ -1,0 +1,7 @@
+{
+  "defaultRoomId": "josh-lounge",
+  "rooms": [
+    { "id": "josh-lounge", "file": "data/josh-lounge.json" },
+    { "id": "stock-minh-pham-lounge", "file": "data/room.json" }
+  ]
+}

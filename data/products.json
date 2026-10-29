@@ -1432,6 +1432,465 @@
         0.46,
         0.79
       ]
+    },
+    {
+      "id": "josh-sanela-yellow",
+      "name": "SANELA cushion cover, yellow-brown, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. Needs a 50x50 cm INNER pad, $6.",
+      "url": "https://www.ikea.com/au/en/p/sanela-cushion-cover-yellow-brown-70635989/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/sanela-cushion-cover-yellow-brown__1502327_pe1007597_s5.jpg",
+      "imageFile": "assets/products/josh-sanela-yellow.jpg",
+      "texture": "velvet",
+      "colourName": "Yellow-brown",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-back",
+      "innerPadAud": 6
+    },
+    {
+      "id": "josh-sanela-green",
+      "name": "SANELA cushion cover, dark green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. Needs a 50x50 cm INNER pad, $6.",
+      "url": "https://www.ikea.com/au/en/p/sanela-cushion-cover-dark-green-60636003/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/sanela-cushion-cover-dark-green__1502326_pe1007596_s5.jpg",
+      "imageFile": "assets/products/josh-sanela-green.jpg",
+      "texture": "velvet",
+      "colourName": "Dark green",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-front",
+      "innerPadAud": 6
+    },
+    {
+      "id": "josh-kryddbuske",
+      "name": "KRYDDBUSKE cushion cover, brown-red, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. Needs a 50x50 cm INNER pad, $6.",
+      "url": "https://www.ikea.com/au/en/p/kryddbuske-cushion-cover-brown-red-00624362/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/kryddbuske-cushion-cover-brown-red__1478222_pe1007674_s5.jpg",
+      "imageFile": "assets/products/josh-kryddbuske.jpg",
+      "texture": "cotton",
+      "colourName": "Brown-red",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "chaise",
+      "innerPadAud": 6
+    },
+    {
+      "id": "josh-margot-clay",
+      "name": "Margot Velvet Cushion - Clay",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 49.95,
+      "priceIsFrom": false,
+      "priceNote": "Clay velvet, 50x50 cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/margot-clay-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushions-Margot_Velvet-Clay_SI.jpg",
+      "imageFile": "assets/products/josh-margot-clay.jpg",
+      "texture": "velvet",
+      "colourName": "Clay",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "chaise",
+      "placementCrop": [
+        0.4,
+        0.32,
+        0.66,
+        0.54
+      ]
+    },
+    {
+      "id": "josh-sorano-tobacco",
+      "name": "Sorano Linen Blend Cushion - Tobacco",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "Hand wash only. 50x50 cm.",
+      "url": "https://www.bedbathntable.com.au/sorano-tabacco-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Sorano_Tobacco_SI_1.jpg",
+      "imageFile": "assets/products/josh-sorano-tobacco.jpg",
+      "texture": "linen",
+      "colourName": "Tobacco",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-back",
+      "placementCrop": [
+        0.54,
+        0.3,
+        0.82,
+        0.58
+      ]
+    },
+    {
+      "id": "josh-everett-olive",
+      "name": "Everett Linen Cushion - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "cushions",
+      "priceAud": 59.95,
+      "priceIsFrom": false,
+      "priceNote": "Olive linen, 50x50 cm, insert included.",
+      "url": "https://www.bedbathntable.com.au/everett-olive-150101",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Studio_LS_Cushion-Everett_Olive_SI_1.jpg",
+      "imageFile": "assets/products/josh-everett-olive.jpg",
+      "texture": "linen",
+      "colourName": "Olive",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-front",
+      "placementCrop": [
+        0.42,
+        0.44,
+        0.78,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-otis-cinnamon",
+      "name": "Otis Cinnamon Boucle Cushion",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "cushions",
+      "priceAud": 89.99,
+      "priceIsFrom": false,
+      "priceNote": "Cinnamon boucle, 40x60 cm.",
+      "url": "https://www.adairs.com.au/homewares/cushions/adairs/otis-cinnamon-boucle-cushion/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2025_images/homewares/cushions/49448_cinnamon_03.jpg",
+      "imageFile": "assets/products/josh-otis-cinnamon.jpg",
+      "texture": "boucle",
+      "colourName": "Cinnamon",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "chaise",
+      "placementCrop": [
+        0.34,
+        0.44,
+        0.72,
+        0.6
+      ]
+    },
+    {
+      "id": "josh-bailey-olive",
+      "name": "Bailey Olive Cushion",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "cushions",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Olive.",
+      "url": "https://www.adairs.com.au/homewares/cushions/adairs/bailey-olive-cushion/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/cushions/61096_olive_01.jpg",
+      "imageFile": "assets/products/josh-bailey-olive.jpg",
+      "texture": "cotton",
+      "colourName": "Olive",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-front",
+      "placementCrop": [
+        0.28,
+        0.38,
+        0.78,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-fenton-brownsugar",
+      "name": "Fenton Brown Sugar Velvet Cushion",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "cushions",
+      "priceAud": 69.99,
+      "priceIsFrom": false,
+      "priceNote": "Brown sugar velvet.",
+      "url": "https://www.adairs.com.au/homewares/cushions/adairs/fenton-brown-sugar-velvet-cushion/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/cushions/61294_brownsuga2.jpg",
+      "imageFile": "assets/products/josh-fenton-brownsugar.jpg",
+      "texture": "velvet",
+      "colourName": "Brown sugar",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "slot": "left-back",
+      "placementCrop": [
+        0.28,
+        0.28,
+        0.72,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-humlemott",
+      "name": "HUMLEMOTT throw, red-brown, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 26.99,
+      "priceIsFrom": false,
+      "priceNote": "Red-brown, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/humlemott-throw-red-brown-20618143/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/humlemott-throw-red-brown__1434092_pe983378_s5.jpg",
+      "imageFile": "assets/products/josh-humlemott.jpg",
+      "texture": "cotton",
+      "colourName": "Red-brown",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.12,
+        0.08,
+        0.55,
+        0.32
+      ]
+    },
+    {
+      "id": "josh-josie-olive",
+      "name": "Josie Striped Tassel Throw - Olive",
+      "store": "Bed Bath N' Table",
+      "storeId": "bbnt",
+      "category": "throw",
+      "priceAud": 89.95,
+      "priceIsFrom": false,
+      "priceNote": "Olive, 127x152 cm.",
+      "url": "https://www.bedbathntable.com.au/josie-olive-070103",
+      "imageUrl": "https://www.bedbathntable.com.au/media/catalog/product/M/_/M_F_W26_Josie-Throw_Olive_26937104_SI_1.jpg",
+      "imageFile": "assets/products/josh-josie-olive.jpg",
+      "texture": "chenille",
+      "colourName": "Olive",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.22,
+        0.52,
+        0.4,
+        0.66
+      ]
+    },
+    {
+      "id": "josh-leiden-brownsugar",
+      "name": "Leiden Brown Sugar Boucle Throw",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "throw",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Brown sugar boucle.",
+      "url": "https://www.adairs.com.au/homewares/throws/adairs/leiden-brown-sugar-boucle-throw/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/throws--blankets/133458_01.jpg",
+      "imageFile": "assets/products/josh-leiden-brownsugar.jpg",
+      "texture": "boucle",
+      "colourName": "Brown sugar",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.38,
+        0.34,
+        0.52,
+        0.58
+      ]
+    },
+    {
+      "id": "josh-stoense-beige",
+      "name": "STOENSE rug, low pile, beige, 200x300 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "200x300 cm. Needs underlay on tiles.",
+      "url": "https://www.ikea.com/au/en/p/stoense-rug-low-pile-beige-50607685/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/stoense-rug-low-pile-beige__1405718_pe970549_s5.jpg",
+      "imageFile": "assets/products/josh-stoense-beige.jpg",
+      "texture": "weave",
+      "colourName": "Beige",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026."
+    },
+    {
+      "id": "josh-sari-rug",
+      "name": "Supersoft Washable Sari Rug",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "rug",
+      "priceAud": 314.99,
+      "priceIsFrom": false,
+      "priceNote": "200x300 cm. Needs underlay on tiles.",
+      "url": "https://www.adairs.com.au/homewares/floor-rugs-mats/adairs/supersoft-washable-sari-rug/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2023_images/furniture/floor-rugs--mats/56391_sari_04.jpg",
+      "imageFile": "assets/products/josh-sari-rug.jpg",
+      "texture": "weave",
+      "colourName": "Sari",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.48,
+        0.4,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "josh-echo-chocolate",
+      "name": "Echo Chocolate Hand Tufted Wool Rug",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "rug",
+      "priceAud": 979.99,
+      "priceIsFrom": false,
+      "priceNote": "200x300 cm. Loop pile. It can snag. Needs underlay on tiles.",
+      "url": "https://www.adairs.com.au/homewares/floor-rugs-mats/adairs/echo-chocolate-hand-tufted-cut-and-loop-wool-rug/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/furniture/rugs/61755_chocolate_1.jpg",
+      "imageFile": "assets/products/josh-echo-chocolate.jpg",
+      "texture": "wool",
+      "colourName": "Chocolate",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "placementCrop": [
+        0.0,
+        0.37,
+        1.0,
+        0.53
+      ]
+    },
+    {
+      "id": "josh-pjaetteryd",
+      "name": "PJ\u00c4TTERYD picture, Swedish sand dunes, 56x56 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 59.99,
+      "priceIsFrom": false,
+      "priceNote": "56x56 cm.",
+      "url": "https://www.ikea.com/au/en/p/pjaetteryd-picture-swedish-sand-dunes-20602019/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/pjaetteryd-picture-swedish-sand-dunes__1385657_pe963379_s5.jpg",
+      "imageFile": "assets/products/josh-pjaetteryd.jpg",
+      "texture": "canvas",
+      "colourName": "Sand",
+      "styles": {
+        "warm-earthy-modern": "good"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "fillFrame": true,
+      "placementCrop": [
+        0.343,
+        0.343,
+        0.655,
+        0.66
+      ]
+    },
+    {
+      "id": "josh-umber-abstract",
+      "name": "Umber Abstract Framed Canvas",
+      "store": "Temple & Webster",
+      "storeId": "temple",
+      "category": "wall-art",
+      "priceAud": 149,
+      "priceIsFrom": false,
+      "priceNote": "Framed canvas, 80x80 cm.",
+      "url": "https://www.templeandwebster.com.au/Umber-Abstract-Framed-Canvas-Wall-Art-TMPL5493.html",
+      "imageUrl": "https://img.zcdn.com.au/lf/50/hash/38080/20339438/4/Umber%2BAbstract%2BFramed%2BCanvas%2BWall%2BArt.jpg",
+      "imageFile": "assets/products/josh-umber-abstract.jpg",
+      "texture": "canvas",
+      "colourName": "Umber",
+      "styles": {
+        "warm-earthy-modern": "better"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "fillFrame": true,
+      "placementCrop": [
+        0.21,
+        0.1,
+        0.76,
+        0.6
+      ]
+    },
+    {
+      "id": "josh-chesil-trio",
+      "name": "Chesil Chocolate & Natural Trio Canvas",
+      "store": "Adairs",
+      "storeId": "adairs",
+      "category": "wall-art",
+      "priceAud": 160.99,
+      "priceIsFrom": false,
+      "priceNote": "Trio canvas.",
+      "url": "https://www.adairs.com.au/homewares/wall-art--mirrors--clocks/adairs/chesil-chocolate--natural-trio-canvas/",
+      "imageUrl": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2026_images/homewares/wall-art/202260_chocolaten_1.jpg",
+      "imageFile": "assets/products/josh-chesil-trio.jpg",
+      "texture": "canvas",
+      "colourName": "Chocolate",
+      "styles": {
+        "warm-earthy-modern": "best"
+      },
+      "roomId": "josh-lounge",
+      "verification": "Checked 29 Oct 2026.",
+      "fillFrame": true,
+      "placementCrop": [
+        0.21,
+        0.17,
+        0.815,
+        0.745
+      ]
     }
   ]
 }

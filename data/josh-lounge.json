@@ -1,0 +1,99 @@
+{
+  "id": "josh-lounge",
+  "title": "Josh's lounge",
+  "image": "assets/room/josh.jpg",
+  "width": 1600,
+  "height": 1200,
+  "swipe": "tier",
+  "tierTotal": "all",
+  "styleIds": ["warm-earthy-modern"],
+  "recommendedStyleId": "warm-earthy-modern",
+  "credit": {
+    "photographer": "Josh",
+    "note": "Josh's lounge, Adelaide."
+  },
+  "fixed": [
+    {
+      "id": "walls",
+      "label": "Walls",
+      "hex": "#908474",
+      "sample": [480, 160],
+      "note": "Warm white, evening light"
+    },
+    {
+      "id": "sofa",
+      "label": "Sofa",
+      "hex": "#625F5A",
+      "sample": [700, 560],
+      "note": "Mid-grey modular, chaise on the right"
+    },
+    {
+      "id": "timber",
+      "label": "Timber",
+      "hex": "#39271B",
+      "sample": [500, 980],
+      "note": "Walnut slatted coffee table"
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "hex": "#E1D0BC",
+      "sample": [1480, 80],
+      "note": "Warm evening light from the kitchen"
+    }
+  ],
+  "regions": {
+    "cushions": {
+      "label": "Cushions",
+      "slots": {
+        "left-back": {
+          "quad": [[248, 392], [458, 384], [470, 558], [240, 568]]
+        },
+        "left-front": {
+          "quad": [[400, 412], [578, 400], [590, 556], [392, 568]]
+        },
+        "chaise": {
+          "quad": [[905, 442], [1155, 434], [1168, 548], [892, 556]]
+        }
+      }
+    },
+    "throw": {
+      "label": "Throw",
+      "quad": [[1115, 598], [1345, 582], [1388, 712], [1145, 738]]
+    },
+    "rug": {
+      "label": "Rug",
+      "quad": [[220, 748], [960, 730], [1280, 1199], [0, 1199]],
+      "polygons": [[
+        [190, 810],
+        [230, 742],
+        [950, 728],
+        [1020, 820],
+        [1100, 960],
+        [1200, 1120],
+        [1210, 1199],
+        [0, 1199],
+        [0, 1040],
+        [130, 880]
+      ]],
+      "table": [[215, 752], [970, 734], [790, 1199], [10, 1199]],
+      "hit": [[
+        [190, 810],
+        [230, 742],
+        [950, 728],
+        [1020, 820],
+        [1100, 960],
+        [1200, 1120],
+        [1210, 1199],
+        [0, 1199],
+        [0, 1040],
+        [130, 880]
+      ]]
+    },
+    "wall-art": {
+      "label": "Wall art",
+      "quad": [[372, 74], [534, 86], [524, 252], [364, 240]],
+      "hit": [[350, 55], [555, 68], [548, 275], [342, 262]]
+    }
+  }
+}
