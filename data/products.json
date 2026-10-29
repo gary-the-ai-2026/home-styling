@@ -340,7 +340,7 @@
       "category": "rug",
       "priceAud": 69,
       "priceIsFrom": false,
-      "priceNote": "180cm diameter, sage. Polyester pile. Excluded from free delivery. Replaces a round jute rug at $42 (SKU 42375609) that no longer appears in Kmart search. The room preview maps the weave into the rug area.",
+      "priceNote": "180cm diameter, sage. Polyester pile. Excluded from free delivery. The room preview maps the weave into the rug area.",
       "url": "https://www.kmart.com.au/product/flecked-rug-sage-round-180cm-43670062/",
       "imageUrl": "https://assets.kmart.com.au/transform/593088c2-316a-477b-a86b-28055d126d38/43670062-1?io=transform:extend,width:1100,height:1375&quality=90",
       "imageFile": "assets/products/kmart-flecked-sage.jpg",
@@ -722,6 +722,716 @@
         "olive-bloom": "best"
       },
       "verification": "Product page returned HTTP 200 and the JSON-LD price was $99.95. Image filename is completed from the partial path; build_overlays.py records the download."
+    },
+    {
+      "id": "ikea-gurli-unbleached",
+      "name": "GURLI cushion cover, unbleached, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 4.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/gurli-cushion-cover-unbleached-00598730/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/gurli-cushion-cover-unbleached__1409327_pe972205_s5.jpg",
+      "imageFile": "assets/products/ikea-gurli-unbleached.jpg",
+      "texture": "cotton",
+      "colourName": "Unbleached",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-ekguldmal-natural",
+      "name": "EKGULDMAL cushion cover, geometric natural, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 14.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/ekguldmal-cushion-cover-geometric-natural-80566886/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/ekguldmal-cushion-cover-geometric-natural__1203767_pe906437_s5.jpg",
+      "imageFile": "assets/products/ikea-ekguldmal-natural.jpg",
+      "texture": "cotton",
+      "colourName": "Geometric natural",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-unbleached",
+      "name": "DYT\u00c5G cushion cover, unbleached, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 19.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/dytag-cushion-cover-unbleached-00625446/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-cushion-cover-unbleached__1545068_pe1019556_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-unbleached.jpg",
+      "texture": "linen",
+      "colourName": "Unbleached",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lohals-133",
+      "name": "LOHALS rug, flatwoven, natural, 133x195 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 89.99,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 133x195 cm.",
+      "url": "https://www.ikea.com/au/en/p/lohals-rug-flatwoven-natural-50511287/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lohals-rug-flatwoven-natural__0280221_pe419173_s5.jpg",
+      "imageFile": "assets/products/ikea-lohals-133.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-tidtabell-beige",
+      "name": "TIDTABELL rug, flatwoven, beige, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, beige, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/tidtabell-rug-flatwoven-beige-90561850/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/tidtabell-rug-flatwoven-beige__1185180_pe898299_s5.jpg",
+      "imageFile": "assets/products/ikea-tidtabell-beige.jpg",
+      "texture": "wool",
+      "colourName": "Beige",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bronden-beige",
+      "name": "BR\u00d6NDEN rug, low pile, handmade beige, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 399,
+      "priceIsFrom": false,
+      "priceNote": "Low pile, handmade, beige, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/broenden-rug-low-pile-handmade-beige-90480552/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/broenden-rug-low-pile-handmade-beige__0804523_pe769465_s5.jpg",
+      "imageFile": "assets/products/ikea-bronden-beige.jpg",
+      "texture": "wool",
+      "colourName": "Beige",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-gunnemor",
+      "name": "GUNNEMOR throw, off-white/grey-beige, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 15.99,
+      "priceIsFrom": false,
+      "priceNote": "Off-white/grey-beige, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/gunnemor-throw-off-white-grey-beige-40516474/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/gunnemor-throw-off-white-grey-beige__1033633_pe837370_s5.jpg",
+      "imageFile": "assets/products/ikea-gunnemor.jpg",
+      "texture": "cotton",
+      "colourName": "Off-white",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-offwhite",
+      "name": "VALLKRASSING throw, off-white, 150x200 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 25.99,
+      "priceIsFrom": false,
+      "priceNote": "Off-white, 150x200 cm.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-throw-off-white-40570927/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-throw-off-white__1207651_pe908114_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-offwhite.jpg",
+      "texture": "cotton",
+      "colourName": "Off-white",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lapptag",
+      "name": "LAPPT\u00c5G throw, off-white, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 59.99,
+      "priceIsFrom": false,
+      "priceNote": "Off-white, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/lapptag-throw-off-white-90572207/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lapptag-throw-off-white__1249622_pe923392_s5.jpg",
+      "imageFile": "assets/products/ikea-lapptag.jpg",
+      "texture": "cotton",
+      "colourName": "Off-white",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bild-curves",
+      "name": "BILD poster, Nordic curves, 30x40 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 5.99,
+      "priceIsFrom": false,
+      "priceNote": "Poster only. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/bild-poster-nordic-curves-50623360/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/bild-poster-nordic-curves__1484195_pe1001489_s5.jpg",
+      "imageFile": "assets/products/ikea-bild-curves.jpg",
+      "texture": "paper",
+      "colourName": "Nordic curves",
+      "styles": {
+        "calm-scandi": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-blodflader-birds",
+      "name": "BLODFL\u00c4DER picture, two birds, 40x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 39.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 40x50 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-two-birds-50601928/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-two-birds__1392148_pe966012_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-birds.jpg",
+      "texture": "canvas",
+      "colourName": "Two birds",
+      "styles": {
+        "calm-scandi": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.045
+    },
+    {
+      "id": "ikea-blodflader-leaves",
+      "name": "BLODFL\u00c4DER picture, black leaves, 40x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 69.99,
+      "priceIsFrom": false,
+      "priceNote": "2 pack. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-black-leaves-80623858/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-black-leaves__1512991_pe1010558_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-leaves.jpg",
+      "texture": "canvas",
+      "colourName": "Black leaves",
+      "styles": {
+        "calm-scandi": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.05,
+      "placementCrop": [
+        0.02,
+        0.22,
+        0.48,
+        0.78
+      ]
+    },
+    {
+      "id": "ikea-lagerpoppel-blue",
+      "name": "LAGERPOPPEL cushion cover, light blue-grey, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 4.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/lagerpoppel-cushion-cover-light-blue-grey-20561815/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lagerpoppel-cushion-cover-light-blue-grey__1259177_pe926582_s5.jpg",
+      "imageFile": "assets/products/ikea-lagerpoppel-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Light blue-grey",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-cushion-blue",
+      "name": "VALLKRASSING cushion cover, light blue-grey, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-cushion-cover-light-blue-grey-20570966/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-cushion-cover-light-blue-grey__1204905_pe906872_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-cushion-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Light blue-grey",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-blue",
+      "name": "DYT\u00c5G cushion cover, grey-blue, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 19.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/dytag-cushion-cover-grey-blue-60625467/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-cushion-cover-grey-blue__1502345_pe1007603_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-blue.jpg",
+      "texture": "linen",
+      "colourName": "Grey-blue",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lohals-round",
+      "name": "LOHALS rug, flatwoven, natural, 130 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 69.99,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 130 cm round.",
+      "url": "https://www.ikea.com/au/en/p/lohals-rug-flatwoven-natural-00494191/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lohals-rug-flatwoven-natural__0982474_pe815667_s5.jpg",
+      "imageFile": "assets/products/ikea-lohals-round.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-stroeg",
+      "name": "STR\u00d6G rug, flatwoven, natural, 155x220 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 79.99,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 155x220 cm.",
+      "url": "https://www.ikea.com/au/en/p/stroeg-rug-flatwoven-natural-70527046/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/stroeg-rug-flatwoven-natural__1062489_pe850843_s5.jpg",
+      "imageFile": "assets/products/ikea-stroeg.jpg",
+      "texture": "cotton",
+      "colourName": "Natural",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-tidtabell-greyblue",
+      "name": "TIDTABELL rug, flatwoven, grey-blue, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, grey-blue, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/tidtabell-rug-flatwoven-grey-blue-20561863/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/tidtabell-rug-flatwoven-grey-blue__1185074_pe898255_s5.jpg",
+      "imageFile": "assets/products/ikea-tidtabell-greyblue.jpg",
+      "texture": "wool",
+      "colourName": "Grey-blue",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-holmvi",
+      "name": "HOLMVI throw, blue, 120x160 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Blue, 120x160 cm.",
+      "url": "https://www.ikea.com/au/en/p/holmvi-throw-blue-80604685/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/holmvi-throw-blue__1385051_pe963137_s5.jpg",
+      "imageFile": "assets/products/ikea-holmvi.jpg",
+      "texture": "cotton",
+      "colourName": "Blue",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-throw-blue",
+      "name": "VALLKRASSING throw, light blue-grey, 150x200 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 25.99,
+      "priceIsFrom": false,
+      "priceNote": "Light blue-grey, 150x200 cm.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-throw-light-blue-grey-90570944/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-throw-light-blue-grey__1207654_pe908123_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-throw-blue.jpg",
+      "texture": "cotton",
+      "colourName": "Light blue-grey",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-myrull",
+      "name": "MYRULL throw, light grey, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "Light grey, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/myrull-throw-light-grey-70563483/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/myrull-throw-light-grey__1187183_pe899082_s5.jpg",
+      "imageFile": "assets/products/ikea-myrull.jpg",
+      "texture": "cotton",
+      "colourName": "Light grey",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bild-mountains",
+      "name": "BILD poster, Nordic mountains, 50x40 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 6.99,
+      "priceIsFrom": false,
+      "priceNote": "Poster only. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/bild-poster-nordic-mountains-40623351/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/bild-poster-nordic-mountains__1484196_pe1001491_s5.jpg",
+      "imageFile": "assets/products/ikea-bild-mountains.jpg",
+      "texture": "paper",
+      "colourName": "Nordic mountains",
+      "styles": {
+        "coastal-linen": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-blodflader-nazare",
+      "name": "BLODFL\u00c4DER picture, Nazar\u00e9, 50x70 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 50x70 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-nazare-60601918/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-nazare__1392151_pe966013_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-nazare.jpg",
+      "texture": "canvas",
+      "colourName": "Nazar\u00e9",
+      "styles": {
+        "coastal-linen": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.045
+    },
+    {
+      "id": "ikea-blodflader-giverny",
+      "name": "BLODFL\u00c4DER picture, The Seine at Giverny, 118x78 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 99.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 118x78 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-the-seine-at-giverny-00601916/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-the-seine-at-giverny__1392143_pe966004_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-giverny.jpg",
+      "texture": "canvas",
+      "colourName": "The Seine at Giverny",
+      "styles": {
+        "coastal-linen": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.045
+    },
+    {
+      "id": "ikea-lagerpoppel-green",
+      "name": "LAGERPOPPEL cushion cover, grey-green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 4.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/lagerpoppel-cushion-cover-grey-green-70561813/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lagerpoppel-cushion-cover-grey-green__1259173_pe926576_s5.jpg",
+      "imageFile": "assets/products/ikea-lagerpoppel-green.jpg",
+      "texture": "cotton",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-cushion-green",
+      "name": "VALLKRASSING cushion cover, grey-green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 9.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-cushion-cover-grey-green-90570958/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-cushion-cover-grey-green__1204906_pe906875_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-cushion-green.jpg",
+      "texture": "cotton",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-cushion-green",
+      "name": "DYT\u00c5G cushion cover, grey-green, 50x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "cushions",
+      "priceAud": 19.99,
+      "priceIsFrom": false,
+      "priceNote": "Cover only. A 50x50 cm INNER pad is $6.",
+      "url": "https://www.ikea.com/au/en/p/dytag-cushion-cover-grey-green-50554130/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-cushion-cover-grey-green__1157569_pe887764_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-cushion-green.jpg",
+      "texture": "linen",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-lohals-160",
+      "name": "LOHALS rug, flatwoven, natural, 160x230 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 119,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, natural, 160x230 cm.",
+      "url": "https://www.ikea.com/au/en/p/lohals-rug-flatwoven-natural-30277394/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/lohals-rug-flatwoven-natural__0280221_pe419173_s5.jpg",
+      "imageFile": "assets/products/ikea-lohals-160.jpg",
+      "texture": "jute",
+      "colourName": "Natural",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-stoense",
+      "name": "STOENSE rug, low pile, pale green, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 149,
+      "priceIsFrom": false,
+      "priceNote": "Low pile, pale green, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/stoense-rug-low-pile-pale-green-10629156/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/stoense-rug-low-pile-pale-green__1492281_pe1004363_s5.jpg",
+      "imageFile": "assets/products/ikea-stoense.jpg",
+      "texture": "weave",
+      "colourName": "Pale green",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-tidtabell-green",
+      "name": "TIDTABELL rug, flatwoven, green, 170x240 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "rug",
+      "priceAud": 249,
+      "priceIsFrom": false,
+      "priceNote": "Flatwoven, green, 170x240 cm.",
+      "url": "https://www.ikea.com/au/en/p/tidtabell-rug-flatwoven-green-20569393/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/tidtabell-rug-flatwoven-green__1205724_pe907222_s5.jpg",
+      "imageFile": "assets/products/ikea-tidtabell-green.jpg",
+      "texture": "wool",
+      "colourName": "Green",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-sandbrodd",
+      "name": "SANDBRODD throw, light green, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 15.99,
+      "priceIsFrom": false,
+      "priceNote": "Light green, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/sandbrodd-throw-light-green-50582114/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/sandbrodd-throw-light-green__1260005_pe926878_s5.jpg",
+      "imageFile": "assets/products/ikea-sandbrodd.jpg",
+      "texture": "cotton",
+      "colourName": "Light green",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-vallkrassing-throw-green",
+      "name": "VALLKRASSING throw, grey-green, 150x200 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 25.99,
+      "priceIsFrom": false,
+      "priceNote": "Grey-green, 150x200 cm.",
+      "url": "https://www.ikea.com/au/en/p/vallkrassing-throw-grey-green-70570935/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/vallkrassing-throw-grey-green__1207660_pe908117_s5.jpg",
+      "imageFile": "assets/products/ikea-vallkrassing-throw-green.jpg",
+      "texture": "cotton",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-dytag-throw-green",
+      "name": "DYT\u00c5G throw, grey-green, 130x170 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "throw",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "Grey-green, 130x170 cm.",
+      "url": "https://www.ikea.com/au/en/p/dytag-throw-grey-green-30554150/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/dytag-throw-grey-green__1157589_pe887780_s5.jpg",
+      "imageFile": "assets/products/ikea-dytag-throw-green.jpg",
+      "texture": "linen",
+      "colourName": "Grey-green",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image."
+    },
+    {
+      "id": "ikea-bild-flowers",
+      "name": "BILD poster, Nordic flowers, 40x50 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 6.99,
+      "priceIsFrom": false,
+      "priceNote": "Poster only. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/bild-poster-nordic-flowers-10623357/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/bild-poster-nordic-flowers__1484197_pe1001492_s5.jpg",
+      "imageFile": "assets/products/ikea-bild-flowers.jpg",
+      "texture": "paper",
+      "colourName": "Nordic flowers",
+      "styles": {
+        "olive-bloom": "good"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-gronmes",
+      "name": "GR\u00d6NMES picture, checkered flower, 56x56 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 39.99,
+      "priceIsFrom": false,
+      "priceNote": "Picture, 56x56 cm. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/groenmes-picture-checkered-flower-50624010/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/groenmes-picture-checkered-flower__1514107_pe1010841_s5.jpg",
+      "imageFile": "assets/products/ikea-gronmes.jpg",
+      "texture": "canvas",
+      "colourName": "Checkered flower",
+      "styles": {
+        "olive-bloom": "better"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true
+    },
+    {
+      "id": "ikea-blodflader-floral",
+      "name": "BLODFL\u00c4DER picture, floral simplicity, 30x40 cm",
+      "store": "IKEA",
+      "storeId": "ikea",
+      "category": "wall-art",
+      "priceAud": 49.99,
+      "priceIsFrom": false,
+      "priceNote": "2 pack. Shown inside the frame already in the room.",
+      "url": "https://www.ikea.com/au/en/p/blodflaeder-picture-floral-simplicity-80623472/",
+      "imageUrl": "https://www.ikea.com/au/en/images/products/blodflaeder-picture-floral-simplicity__1513997_pe1010766_s5.jpg",
+      "imageFile": "assets/products/ikea-blodflader-floral.jpg",
+      "texture": "canvas",
+      "colourName": "Floral simplicity",
+      "styles": {
+        "olive-bloom": "best"
+      },
+      "verification": "IKEA Australia product page returned HTTP 200 on 29 Oct 2026. The main image is the page og:image.",
+      "fillFrame": true,
+      "frameInset": 0.05,
+      "placementCrop": [
+        0.02,
+        0.21,
+        0.46,
+        0.79
+      ]
     }
   ]
 }

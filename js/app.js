@@ -2,12 +2,15 @@ import { fixedAnchors } from "./room-reading.js";
 import { derivePalette } from "./style-engine.js";
 import {
   CATEGORIES,
+  STORES,
   TIERS,
   TIER_LABEL,
+  formatChecked,
   formatPrice,
   formatTotal,
-  picksFor,
+  optionsFor,
   sumProducts,
+  tierProducts,
 } from "./catalogue.js";
 import { applyOverlays, mountHits } from "./compositor.js";
 
@@ -17,8 +20,8 @@ const state = {
   products: null,
   overlays: null,
   styleId: null,
-  selection: defaultSelection(),
-  picks: null,
+  selection: {},
+  options: null,
 };
 
 const stage = document.querySelector("#stage");
@@ -30,8 +33,16 @@ async function loadJson(path) {
   return response.json();
 }
 
-function defaultSelection() {
-  return { cushions: "good", rug: "good", throw: "good", "wall-art": "good" };
+function defaultSelection(options) {
+  const selection = {};
+  for (const category of CATEGORIES) {
+    selection[category.id] = options[category.id][0]?.id || null;
+  }
+  return selection;
+}
+
+function selectedProduct(categoryId) {
+  return (state.options[categoryId] || []).find((product) => product.id === state.selection[categoryId]) || null;
 }
 
 async function main() {
@@ -49,6 +60,7 @@ async function main() {
   state.overlays = overlays;
   state.styleId = stylesDoc.recommendedId;
 
+  document.querySelector("#stores").innerHTML = STORES.map((store) => `<li>${escapeHtml(store)}</li>`).join("");
   document.querySelector("#base").src = room.image;
   document.querySelector("#base").alt = `${room.title}. Stock photo, regions can be swapped later.`;
   document.querySelector("#placement").textContent =
@@ -65,8 +77,8 @@ function currentStyle() {
 }
 
 function renderStyle() {
-  state.selection = defaultSelection();
-  state.picks = picksFor(state.products, state.styleId);
+  state.options = optionsFor(state.products, state.styleId);
+  state.selection = defaultSelection(state.options);
   const style = currentStyle();
   const anchors = fixedAnchors(state.room);
   const palette = derivePalette(anchors, style);
@@ -75,7 +87,7 @@ function renderStyle() {
   renderStyleCard(style);
   renderCarousels();
   renderCatalogue();
-  applyOverlays(stage, state.overlays, state.picks, state.selection);
+  applyOverlays(stage, state.overlays, state.options, state.selection);
   markSelected();
   updateStageLabel(null);
 }
@@ -146,12 +158,12 @@ function onStyleClick(event) {
 function renderCarousels() {
   const root = document.querySelector("#carousels");
   root.innerHTML = CATEGORIES.map((category) => {
-    const cards = TIERS.map((tier) => cardHtml(category, tier)).join("");
+    const cards = state.options[category.id].map((product) => cardHtml(category, product)).join("");
     return `
       <section class="carousel-block" id="carousel-${category.id}">
         <header>
           <h2>${category.label}</h2>
-          <p>Good, Better, Best</p>
+          <p>Lowest price first</p>
         </header>
         <div class="scroller" data-category="${category.id}" tabindex="0">${cards}</div>
       </section>`;
@@ -165,10 +177,10 @@ function renderCarousels() {
           .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
         if (!visible) return;
         const category = scroller.dataset.category;
-        const tier = visible.target.dataset.tier;
-        if (state.selection[category] === tier) return;
-        state.selection[category] = tier;
-        applyOverlays(stage, state.overlays, state.picks, state.selection);
+        const productId = visible.target.dataset.product;
+        if (state.selection[category] === productId) return;
+        state.selection[category] = productId;
+        applyOverlays(stage, state.overlays, state.options, state.selection);
         markSelected();
         updateStageLabel(category);
       },
@@ -178,11 +190,8 @@ function renderCarousels() {
   });
 }
 
-function cardHtml(category, tier) {
-  const product = state.picks[category.id][tier];
-  if (!product) {
-    return `<article class="card" data-category="${category.id}" data-tier="${tier}"><p>No product for this tier.</p></article>`;
-  }
+function cardHtml(category, product) {
+  const tier = product.styles[state.styleId];
   const placed = Boolean(state.overlays.overlays?.[product.id]);
   const photo = product.imageUnverified
     ? `<div class="photo missing"><p>Photo could not be verified, so it is not placed in the room.</p></div>`
@@ -192,7 +201,7 @@ function cardHtml(category, tier) {
     : "";
   const note = product.priceNote ? `<p class="note">${escapeHtml(product.priceNote)}</p>` : "";
   return `
-    <article class="card" data-category="${category.id}" data-tier="${tier}">
+    <article class="card" data-category="${category.id}" data-product="${escapeAttr(product.id)}">
       <p class="tier">${TIER_LABEL[tier]}</p>
       ${photo}
       <h3>${escapeHtml(product.name)}</h3>
@@ -204,19 +213,23 @@ function cardHtml(category, tier) {
 }
 
 function renderCatalogue() {
+  const checked = formatChecked(state.checkedOn);
   const blocks = TIERS.map((tier) => {
-    const items = CATEGORIES.map((category) => state.picks[category.id][tier]);
-    const total = sumProducts(items);
-    const rows = CATEGORIES.map((category, index) => {
-      const product = items[index];
-      if (!product) return "";
-      return `
-        <li data-category="${category.id}" data-tier="${tier}">
+    const groups = tierProducts(state.options, state.styleId, tier);
+    const cheapest = groups.map((group) => group.products[0]).filter(Boolean);
+    const total = sumProducts(cheapest);
+    const rows = groups
+      .flatMap((group) =>
+        group.products.map(
+          (product) => `
+        <li data-category="${group.category.id}" data-product="${escapeAttr(product.id)}">
           <a href="${escapeAttr(product.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(product.name)}</a>
           <span>${escapeHtml(product.store)}</span>
           <strong>${formatPrice(product)}</strong>
-        </li>`;
-    }).join("");
+        </li>`
+        )
+      )
+      .join("");
     return `
       <article class="tier-total" data-tier="${tier}">
         <header>
@@ -227,11 +240,11 @@ function renderCatalogue() {
       </article>`;
   }).join("");
 
-  const roomItems = CATEGORIES.map((category) => state.picks[category.id][state.selection[category.id]]);
+  const roomItems = CATEGORIES.map((category) => selectedProduct(category.id));
   document.querySelector("#catalogue").innerHTML = `
     <p class="kicker">Catalogue</p>
     <h2>The three ways to buy it</h2>
-    <p class="fine">Prices checked ${escapeHtml(state.checkedOn)}, in AUD. A total that includes a from-price is labelled From. The row in the room right now is marked.</p>
+    <p class="fine">Prices checked ${escapeHtml(checked)}, in AUD. A tier can list more than one product. Its total is the lowest price in each category. A total that includes a from-price is labelled From. The product in the room is marked.</p>
     <p class="room-total">In the room now <strong id="room-total">${formatTotal(sumProducts(roomItems))}</strong></p>
     <div class="tier-grid">${blocks}</div>
   `;
@@ -239,14 +252,14 @@ function renderCatalogue() {
 
 function markSelected() {
   document.querySelectorAll(".card").forEach((card) => {
-    const on = state.selection[card.dataset.category] === card.dataset.tier;
+    const on = state.selection[card.dataset.category] === card.dataset.product;
     card.classList.toggle("is-selected", on);
   });
   document.querySelectorAll("#catalogue li").forEach((row) => {
-    const on = state.selection[row.dataset.category] === row.dataset.tier;
+    const on = state.selection[row.dataset.category] === row.dataset.product;
     row.classList.toggle("is-in-room", on);
   });
-  const roomItems = CATEGORIES.map((category) => state.picks[category.id][state.selection[category.id]]);
+  const roomItems = CATEGORIES.map((category) => selectedProduct(category.id));
   const total = document.querySelector("#room-total");
   if (total) total.textContent = formatTotal(sumProducts(roomItems));
 }
@@ -258,10 +271,10 @@ function updateStageLabel(categoryId) {
     return;
   }
   const category = CATEGORIES.find((item) => item.id === categoryId);
-  const product = state.picks[categoryId][state.selection[categoryId]];
+  const product = selectedProduct(categoryId);
   label.hidden = false;
   label.textContent = product
-    ? `${category.label} · ${TIER_LABEL[state.selection[categoryId]]} · ${product.name}`
+    ? `${category.label} · ${TIER_LABEL[product.styles[state.styleId]]} · ${product.name}`
     : category.label;
 }
 
@@ -309,13 +322,15 @@ function wireHits() {
 }
 
 function cycle(categoryId, direction) {
-  const index = TIERS.indexOf(state.selection[categoryId]);
-  const next = TIERS[(index + direction + TIERS.length) % TIERS.length];
-  state.selection[categoryId] = next;
-  applyOverlays(stage, state.overlays, state.picks, state.selection);
+  const list = state.options[categoryId] || [];
+  if (!list.length) return;
+  const index = Math.max(0, list.findIndex((product) => product.id === state.selection[categoryId]));
+  const next = list[(index + direction + list.length) % list.length];
+  state.selection[categoryId] = next.id;
+  applyOverlays(stage, state.overlays, state.options, state.selection);
   markSelected();
   updateStageLabel(categoryId);
-  const card = document.querySelector(`.card[data-category="${categoryId}"][data-tier="${next}"]`);
+  const card = document.querySelector(`.card[data-category="${categoryId}"][data-product="${next.id}"]`);
   const scroller = card?.parentElement;
   if (card && scroller) {
     const left = card.offsetLeft - (scroller.clientWidth - card.offsetWidth) / 2;
@@ -334,7 +349,7 @@ function renderCredit() {
     Photo by <a href="${escapeAttr(credit.photographerUrl)}">${escapeHtml(credit.photographer)}</a>
     on <a href="${escapeAttr(credit.sourceUrl)}">Unsplash</a>.
     <a href="${escapeAttr(credit.licenseUrl)}">${escapeHtml(credit.license)}</a>.
-    Prices checked ${escapeHtml(state.checkedOn)}.
+    Prices checked ${escapeHtml(formatChecked(state.checkedOn))}.
   `;
 }
 

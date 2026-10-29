@@ -1,5 +1,7 @@
 /** Product catalogue helpers. Tiers stay Good / Better / Best, chosen by fit and price. */
 
+export const STORES = ["Kmart", "Bed Bath N' Table", "Adairs", "Temple & Webster", "IKEA"];
+
 export const TIERS = ["good", "better", "best"];
 
 export const TIER_LABEL = {
@@ -15,17 +17,28 @@ export const CATEGORIES = [
   { id: "wall-art", label: "Wall art" },
 ];
 
-export function picksFor(products, styleId) {
-  const picks = {};
+export function optionsFor(products, styleId) {
+  const options = {};
   for (const category of CATEGORIES) {
-    picks[category.id] = {};
-    for (const tier of TIERS) {
-      picks[category.id][tier] =
-        products.find((product) => product.category === category.id && product.styles?.[styleId] === tier) ||
-        null;
-    }
+    options[category.id] = products
+      .filter((product) => product.category === category.id && product.styles?.[styleId])
+      .sort((a, b) => Number(a.priceAud) - Number(b.priceAud) || a.name.localeCompare(b.name));
   }
-  return picks;
+  return options;
+}
+
+export function tierProducts(options, styleId, tier) {
+  return CATEGORIES.map((category) => ({
+    category,
+    products: options[category.id].filter((product) => product.styles[styleId] === tier),
+  }));
+}
+
+export function formatChecked(iso) {
+  if (!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso || "";
+  const [year, month, day] = iso.split("-").map(Number);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${day} ${months[month - 1]} ${year}`;
 }
 
 export function formatPrice(product) {

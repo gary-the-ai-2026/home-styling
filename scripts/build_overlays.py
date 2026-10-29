@@ -157,6 +157,20 @@ def fabric_source(image: Image.Image, product: dict) -> Image.Image:
         image = image.crop(
             (int(x0 * image.width), int(y0 * image.height), int(x1 * image.width), int(y1 * image.height))
         )
+    if product.get("fillFrame"):
+        image = trim_near_white(image, threshold=228)
+        inset = float(product.get("frameInset") or 0)
+        if inset:
+            width, height = image.size
+            image = image.crop(
+                (
+                    int(width * inset),
+                    int(height * inset),
+                    int(width * (1 - inset)),
+                    int(height * (1 - inset)),
+                )
+            )
+        return image
     rgb = np.array(image.convert("RGB"))
     border = np.concatenate(
         [rgb[0, :, :], rgb[-1, :, :], rgb[:, 0, :], rgb[:, -1, :]],

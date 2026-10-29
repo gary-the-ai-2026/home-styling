@@ -15,13 +15,13 @@ export function layerOrder() {
   return LAYER_ORDER;
 }
 
-export function applyOverlays(stage, manifest, picks, selection) {
+export function applyOverlays(stage, manifest, options, selection) {
   const baseWidth = manifest.width;
   const baseHeight = manifest.height;
   for (const categoryId of LAYER_ORDER) {
     const layer = stage.querySelector(`[data-layer="${categoryId}"]`);
     if (!layer) continue;
-    const product = picks[categoryId]?.[selection[categoryId]];
+    const product = (options[categoryId] || []).find((item) => item.id === selection[categoryId]);
     const meta = product ? manifest.overlays[product.id] : null;
     if (!meta) {
       layer.hidden = true;

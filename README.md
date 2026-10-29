@@ -1,6 +1,6 @@
 # Home styling
 
-A mobile-first prototype for Josh and Amy. It reads one lounge photo, recommends a style, and offers Good, Better and Best products from Kmart, Bed Bath N' Table, Adairs, and Temple & Webster.
+A mobile-first prototype for Josh and Amy. It reads one lounge photo, recommends a style, and offers Good, Better and Best products from Kmart, Bed Bath N' Table, Adairs, Temple & Webster, and IKEA.
 
 Version one is a static site. The room reading, the palette and the product research are precomputed for the stock photo. The modules are separate so a later upload-and-search step can replace the data without rewriting the page.
 
@@ -54,7 +54,7 @@ Switching style runs `derivePalette()` again and swaps the product set. The phot
 
 `data/products.json` is the catalogue. Each record has a name, store, price in AUD, product URL, image URL, the local image file, and which style and tier it belongs to. `checkedOn` is the date the page was read.
 
-Tiers are Good, Better and Best, three per category. They are chosen by fit and price across all four stores, not by assigning one store to one tier.
+Tiers are Good, Better and Best. A tier can hold more than one product. They are chosen by fit and price across all five stores, not by assigning one store to one tier. In the room, the options for a category are ordered by price.
 
 A `priceIsFrom` price is the structured-data offer, which matches the low end of a size range. Totals that include one are labelled From. Where a page shows more than one figure (an RRP and a Linen Lovers price, for example), the total uses the first figure and the card’s note records the others.
 
@@ -63,7 +63,7 @@ A `priceIsFrom` price is the structured-data offer, which matches the low end of
 This prototype can be sold as a static demo. A live version, where someone uploads their own room, needs two services this repo does not call:
 
 - An image model or a vision API, to find the same four anchors and the four item regions on a new photo. The regions still have to become masks. The room image itself should still be the uploaded photo, with overlays composited on top, rather than a freshly generated scene.
-- A product search API, or a maintained feed, for Kmart, Bed Bath N' Table, Adairs and Temple & Webster. Several of those sites block automated requests. Prices in this repo were checked by hand on 29 Oct 2026 and will go stale.
+- Free scripts read public sitemaps, structured data and the stores' own image servers, for Kmart, Bed Bath N' Table, Adairs, Temple & Webster and IKEA. Several of those sites block automated requests. Prices in this repo were checked by hand on 29 Oct 2026 and will go stale.
 
 ## Verification limits
 
@@ -74,7 +74,8 @@ Checked 29 Oct 2026.
 - Adairs pages were readable, but `adairs.com.au` returned 403. Product images were fetched through `images.weserv.nl` because the Adairs host blocked this environment.
 - Kmart product pages returned 403 or 429 from this environment. The image host `assets.kmart.com.au` returned HTTP 200, and the live catalogue search (`ac.cnstrc.com`, the key the Kmart site uses) returned the name, price and image URL. Olive and bloom uses the Indi jute rug ($85, 235 x 160cm) and the Flecked sage round rug ($69, 180cm). Calm Scandi’s Good cushion is the 50cm woven check cover in beige ($7). An earlier round jute at $42 (SKU 42375609) and an earlier check cover (SKU 43475735) no longer appear in that search.
 - Guessed Kmart image URLs were not used. A guessed URL returned a fallback file rather than the product. The image ids here come from the catalogue search, and each file was opened and checked.
+- IKEA Australia pages returned HTTP 200. Each main image is the page `og:image` on `ikea.com`. IKEA cushion prices are the cover only. BILD posters are unframed and are shown inside the frame already in the room. Two BLODFLÄDER pictures are sold as a 2 pack.
 
 ## Deploy
 
-The site is static: `index.html`, `css/`, `js/`, `data/`, `assets/`. GitHub Pages is the first choice. This repository is private. If Pages is not available on the plan, leave the repo private and host the same folder on Cloudflare Pages or Netlify.
+The site is static: `index.html`, `css/`, `js/`, `data/`, `assets/`. This repository is public. GitHub Pages serves it at https://gary-the-ai-2026.github.io/home-styling/.

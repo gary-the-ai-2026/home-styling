@@ -255,6 +255,258 @@
       "y": 488,
       "width": 257,
       "height": 327
+    },
+    "ikea-gurli-unbleached": {
+      "file": "assets/overlays/ikea-gurli-unbleached.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-ekguldmal-natural": {
+      "file": "assets/overlays/ikea-ekguldmal-natural.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-dytag-unbleached": {
+      "file": "assets/overlays/ikea-dytag-unbleached.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-lohals-133": {
+      "file": "assets/overlays/ikea-lohals-133.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-tidtabell-beige": {
+      "file": "assets/overlays/ikea-tidtabell-beige.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-bronden-beige": {
+      "file": "assets/overlays/ikea-bronden-beige.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-gunnemor": {
+      "file": "assets/overlays/ikea-gunnemor.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-vallkrassing-offwhite": {
+      "file": "assets/overlays/ikea-vallkrassing-offwhite.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-lapptag": {
+      "file": "assets/overlays/ikea-lapptag.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-bild-curves": {
+      "file": "assets/overlays/ikea-bild-curves.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-blodflader-birds": {
+      "file": "assets/overlays/ikea-blodflader-birds.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-blodflader-leaves": {
+      "file": "assets/overlays/ikea-blodflader-leaves.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-lagerpoppel-blue": {
+      "file": "assets/overlays/ikea-lagerpoppel-blue.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-vallkrassing-cushion-blue": {
+      "file": "assets/overlays/ikea-vallkrassing-cushion-blue.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-dytag-blue": {
+      "file": "assets/overlays/ikea-dytag-blue.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-lohals-round": {
+      "file": "assets/overlays/ikea-lohals-round.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-stroeg": {
+      "file": "assets/overlays/ikea-stroeg.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-tidtabell-greyblue": {
+      "file": "assets/overlays/ikea-tidtabell-greyblue.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-holmvi": {
+      "file": "assets/overlays/ikea-holmvi.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-vallkrassing-throw-blue": {
+      "file": "assets/overlays/ikea-vallkrassing-throw-blue.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-myrull": {
+      "file": "assets/overlays/ikea-myrull.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-bild-mountains": {
+      "file": "assets/overlays/ikea-bild-mountains.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-blodflader-nazare": {
+      "file": "assets/overlays/ikea-blodflader-nazare.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-blodflader-giverny": {
+      "file": "assets/overlays/ikea-blodflader-giverny.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-lagerpoppel-green": {
+      "file": "assets/overlays/ikea-lagerpoppel-green.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-vallkrassing-cushion-green": {
+      "file": "assets/overlays/ikea-vallkrassing-cushion-green.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-dytag-cushion-green": {
+      "file": "assets/overlays/ikea-dytag-cushion-green.png",
+      "x": 215,
+      "y": 1088,
+      "width": 1026,
+      "height": 161
+    },
+    "ikea-lohals-160": {
+      "file": "assets/overlays/ikea-lohals-160.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-stoense": {
+      "file": "assets/overlays/ikea-stoense.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-tidtabell-green": {
+      "file": "assets/overlays/ikea-tidtabell-green.png",
+      "x": 0,
+      "y": 1458,
+      "width": 1326,
+      "height": 635
+    },
+    "ikea-sandbrodd": {
+      "file": "assets/overlays/ikea-sandbrodd.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-vallkrassing-throw-green": {
+      "file": "assets/overlays/ikea-vallkrassing-throw-green.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-dytag-throw-green": {
+      "file": "assets/overlays/ikea-dytag-throw-green.png",
+      "x": 740,
+      "y": 1288,
+      "width": 531,
+      "height": 213
+    },
+    "ikea-bild-flowers": {
+      "file": "assets/overlays/ikea-bild-flowers.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-gronmes": {
+      "file": "assets/overlays/ikea-gronmes.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
+    },
+    "ikea-blodflader-floral": {
+      "file": "assets/overlays/ikea-blodflader-floral.png",
+      "x": 844,
+      "y": 488,
+      "width": 257,
+      "height": 327
     }
   },
   "pixelCheck": [
@@ -400,6 +652,150 @@
     },
     {
       "id": "bbnt-honeysuckle",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-gurli-unbleached",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-ekguldmal-natural",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-dytag-unbleached",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-lohals-133",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-tidtabell-beige",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-bronden-beige",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-gunnemor",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-vallkrassing-offwhite",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-lapptag",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-bild-curves",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-blodflader-birds",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-blodflader-leaves",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-lagerpoppel-blue",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-vallkrassing-cushion-blue",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-dytag-blue",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-lohals-round",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-stroeg",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-tidtabell-greyblue",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-holmvi",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-vallkrassing-throw-blue",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-myrull",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-bild-mountains",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-blodflader-nazare",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-blodflader-giverny",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-lagerpoppel-green",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-vallkrassing-cushion-green",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-dytag-cushion-green",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-lohals-160",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-stoense",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-tidtabell-green",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-sandbrodd",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-vallkrassing-throw-green",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-dytag-throw-green",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-bild-flowers",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-gronmes",
+      "outsidePixelsChanged": 0
+    },
+    {
+      "id": "ikea-blodflader-floral",
       "outsidePixelsChanged": 0
     }
   ],
